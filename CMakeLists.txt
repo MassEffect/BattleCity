@@ -13,7 +13,9 @@ add_executable(${PROJECT_NAME}
 				src/Renderer/texture2D.cpp
 				src/Renderer/texture2D.h
 				src/Renderer/Sprite.cpp
-				src/Renderer/Sprite.h				
+				src/Renderer/Sprite.h
+				src/Renderer/AnimatedSprite.cpp
+				src/Renderer/AnimatedSprite.h
 				src/Resources/ResourceManager.cpp
 				src/Resources/ResourceManager.h
 				src/Resources/stb_image.h
