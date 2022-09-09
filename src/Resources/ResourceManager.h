@@ -32,30 +32,28 @@ class ResourceManager
         static std::shared_ptr<RenderEngine::Texture2D> getTexture(const std::string& textureName);
 
         static std::shared_ptr<RenderEngine::Sprite> loadSprite(const std::string& spriteName,
-                                                            const std::string& textureName,
-                                                            const std::string& shaderName,
-                                                            const unsigned int spriteWidth,
-                                                            const unsigned int spriteHeight,
-                                                            const std::string& subTextureName = "default");
+                                                                const std::string& textureName,
+                                                                const std::string& shaderName,
+                                                                const std::string& subTextureName = "default");
 
         static std::shared_ptr<RenderEngine::Sprite> getSprite(const std::string& spriteName);
 
         static std::shared_ptr<RenderEngine::AnimatedSprite> loadAnimatedSprite(const std::string& spriteName,
-                                                                            const std::string& textureName,
-                                                                            const std::string& shaderName,
-                                                                            const unsigned int spriteWidth,
-                                                                            const unsigned int spriteHeight,
-                                                                            const std::string& subTextureName = "default");
+                                                                                const std::string& textureName,
+                                                                                const std::string& shaderName,
+                                                                                const std::string& subTextureName = "default");
 
         static std::shared_ptr<RenderEngine::AnimatedSprite> getAnimatedSprite(const std::string& spriteName);
 
         static std::shared_ptr<RenderEngine::Texture2D> loadTextureAtlas(std::string textureName,
-                                                                     std::string texturePath,
-                                                                     std::vector<std::string> subTextures,
-                                                                     const unsigned int subTextureWidth,
-                                                                     const unsigned int subTextureHeight);
+                                                                         std::string texturePath,
+                                                                         std::vector<std::string> subTextures,
+                                                                         const unsigned int subTextureWidth,
+                                                                         const unsigned int subTextureHeight);
 
         static bool loadJSONResources(const std::string& JSONPath);
+
+        static std::vector<std::vector<std::string>>& getLevels(){return m_levels;};
 
     private:
         static std::string getFileString(const std::string& relativeFilePath);
@@ -71,6 +69,8 @@ class ResourceManager
 
         typedef std::map<const std::string, std::shared_ptr<RenderEngine::AnimatedSprite>> AnimatedSpritesMap;
         static AnimatedSpritesMap m_animatedSprites;
+
+        static std::vector<std::vector<std::string>> m_levels;
 
         static std::string m_path;
 };

@@ -1,13 +1,14 @@
 #pragma once
 #include <memory>
 #include <glm/vec2.hpp>
+#include "IGameObject.h"
 
 namespace RenderEngine
 {
     class AnimatedSprite;
 }
 
-class Tank
+class Tank : public IGameObject
 {
 public:
     enum class EOrientation
@@ -18,12 +19,12 @@ public:
         Right
     };
 
-    Tank(std::shared_ptr<RenderEngine::AnimatedSprite> pSprite, const float velocity, const glm::vec2& position);
+    Tank(std::shared_ptr<RenderEngine::AnimatedSprite> pSprite, const float velocity, const glm::vec2& position, const glm::vec2& size);
 
-    void render()const;
+    void render()const override;
     void setOrientation(const EOrientation eOrientation);
     void move(const bool move);
-    void update(const uint64_t delta);
+    void update(const uint64_t delta)override;
 
 private:
 
@@ -31,6 +32,5 @@ private:
     std::shared_ptr<RenderEngine::AnimatedSprite> m_pSprite;
     bool m_move;
     float m_velocity;
-    glm::vec2 m_position;
     glm::vec2 m_moveOffset;
 };
