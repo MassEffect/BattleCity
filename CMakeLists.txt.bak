@@ -14,6 +14,8 @@ add_executable(${PROJECT_NAME}
 				src/Renderer/texture2D.h
 				src/Renderer/Sprite.cpp
 				src/Renderer/Sprite.h
+				src/Renderer/SpriteAnimator.cpp
+				src/Renderer/SpriteAnimator.h
 				src/Renderer/AnimatedSprite.cpp
 				src/Renderer/AnimatedSprite.h
 				src/Renderer/VertexBuffer.cpp
@@ -38,6 +40,8 @@ add_executable(${PROJECT_NAME}
 				src/Game/GameObjects/Tank.cpp
 				src/Game/GameObjects/IGameObject.h
 				src/Game/GameObjects/IGameObject.cpp
+				src/Game/GameObjects/BrickWall.h
+				src/Game/GameObjects/BrickWall.cpp
   				)
 
 target_compile_features(${PROJECT_NAME} PUBLIC cxx_std_17)
