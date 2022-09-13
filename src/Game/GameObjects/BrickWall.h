@@ -60,6 +60,8 @@ class BrickWall : public IGameObject
 
     private:
             void renderBrick(const EBrickLocation eBrickLocation)const;
+
+            std::array<glm::vec2, 4> m_blockOffsets;
             std::array<EBrickState, 4> m_eCurrentBrickState;
             std::array<std::shared_ptr<RenderEngine::Sprite>, 15> m_sprites;
 };
