@@ -19,7 +19,19 @@ namespace RenderEngine
 
     void Renderer::clear()
     {
-        glClear(GL_COLOR_BUFFER_BIT);
+        glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
+    };
+
+    void Renderer::setDepthTest(const bool enable)
+    {
+        if(enable)
+        {
+            glEnable(GL_DEPTH_TEST);
+        }
+        else
+        {
+            glDisable(GL_DEPTH_TEST);
+        }
     };
 
     void Renderer::setViewport(unsigned int leftOffset, unsigned int bottomOffset, unsigned int width, unsigned int height)

@@ -5,9 +5,10 @@ out vec2 texCoords;
 
 uniform mat4 modelMat;
 uniform mat4 projectionMat;
+uniform float level;
 
 void main()
 {
    texCoords = texture_coords;
-   gl_Position = projectionMat * modelMat * vec4(vertex_position, 1.0);
+   gl_Position = projectionMat * modelMat * vec4(vertex_position, level, 1.0);
 };
