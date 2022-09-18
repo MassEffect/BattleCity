@@ -52,6 +52,9 @@ add_executable(${PROJECT_NAME}
 				src/Game/GameObjects/Water.cpp
 				src/Game/GameObjects/Eagle.h
 				src/Game/GameObjects/Eagle.cpp
+				
+				src/System/Timer.cpp
+				src/System/Timer.h
   				)
 
 target_compile_features(${PROJECT_NAME} PUBLIC cxx_std_17)

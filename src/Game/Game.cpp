@@ -36,7 +36,7 @@ void Game::render()
     };
 };
 
-void Game::update(const uint64_t delta)
+void Game::update(const double delta)
 {
     if(m_pLevel)
     {
@@ -105,7 +105,7 @@ bool Game::init()
         ResourceManager::getSprite("tankSprite_left");
         ResourceManager::getSprite("tankSprite_right");
 
-        m_pTank = std::make_unique<Tank>(0.0000001f,
+        m_pTank = std::make_unique<Tank>(0.05,
                                          m_pLevel -> getPlayerRespawn_1(),
                                          glm::vec2(Level::BLOCK_SIZE, Level::BLOCK_SIZE),
                                          0.0f);
