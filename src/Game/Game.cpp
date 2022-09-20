@@ -6,6 +6,7 @@
 
 #include "GameObjects/Tank.h"
 #include "Level.h"
+#include "../PhysicsEngine/PhysicsEngine.h"
 #include <GLFW/glfw3.h>
 #include <glm/gtc/matrix_transform.hpp>
 #include <glm/mat4x4.hpp>
@@ -48,26 +49,26 @@ void Game::update(const double delta)
         if(m_keys[GLFW_KEY_W])
         {
             m_pTank -> setOrientation(Tank::EOrientation::Top);
-            m_pTank -> move(true);
+            m_pTank -> setVelocity(m_pTank -> getMaxVelocity());
         }
         else if(m_keys[GLFW_KEY_A])
         {
             m_pTank -> setOrientation(Tank::EOrientation::Left);
-            m_pTank -> move(true);
+            m_pTank -> setVelocity(m_pTank -> getMaxVelocity());
         }
         else if(m_keys[GLFW_KEY_S])
         {
             m_pTank -> setOrientation(Tank::EOrientation::Bottom);
-            m_pTank -> move(true);
+            m_pTank -> setVelocity(m_pTank -> getMaxVelocity());
         }
         else if(m_keys[GLFW_KEY_D])
         {
             m_pTank -> setOrientation(Tank::EOrientation::Right);
-            m_pTank -> move(true);
+            m_pTank -> setVelocity(m_pTank -> getMaxVelocity());
         }
         else
         {
-            m_pTank -> move(false);
+            m_pTank -> setVelocity(0);
         }
 
         m_pTank -> update(delta);
@@ -105,10 +106,11 @@ bool Game::init()
         ResourceManager::getSprite("tankSprite_left");
         ResourceManager::getSprite("tankSprite_right");
 
-        m_pTank = std::make_unique<Tank>(0.05,
+        m_pTank = std::make_shared<Tank>(0.05,
                                          m_pLevel -> getPlayerRespawn_1(),
                                          glm::vec2(Level::BLOCK_SIZE, Level::BLOCK_SIZE),
                                          0.0f);
+        PhysicsEngine::addDynamicGameObjects(m_pTank);
 
 
         return true;
