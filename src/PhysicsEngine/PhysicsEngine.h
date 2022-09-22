@@ -1,26 +1,48 @@
 #pragma once
 #include <unordered_set>
 #include <memory>
+#include <glm/vec2.hpp>
+#include <vector>
 
 class IGameObject;
+class Level;
 
-class PhysicsEngine
+namespace Physics
 {
-    public:
-       ~PhysicsEngine() = delete;
-       PhysicsEngine() = delete;
-       PhysicsEngine(const PhysicsEngine&) = delete;
-       PhysicsEngine& operator=(const PhysicsEngine&) = delete;
-       PhysicsEngine& operator=(PhysicsEngine&&) = delete;
-       PhysicsEngine(PhysicsEngine&&) = delete;
+        struct AABB
+        {
+            AABB(const glm::vec2 _bottomLeft, const glm::vec2 _topRight)
+                : bottomLeft(_bottomLeft)
+                , topRight(_topRight)
+            {
+            };
+            glm::vec2 bottomLeft;
+            glm::vec2 topRight;
+        };
 
-       static void init();
-       static void terminate();
+    class PhysicsEngine
+    {
+        public:
+           ~PhysicsEngine() = delete;
+           PhysicsEngine() = delete;
+           PhysicsEngine(const PhysicsEngine&) = delete;
+           PhysicsEngine& operator=(const PhysicsEngine&) = delete;
+           PhysicsEngine& operator=(PhysicsEngine&&) = delete;
+           PhysicsEngine(PhysicsEngine&&) = delete;
 
-       static void update(const double delta);
-       static void addDynamicGameObjects(std::shared_ptr<IGameObject> pGameObject);
+           static void init();
+           static void terminate();
 
-    private:
+           static void update(const double delta);
+           static void addDynamicGameObjects(std::shared_ptr<IGameObject> pGameObject);
+           static void setCurrentLevel(std::shared_ptr<Level> pLevel);
 
-        static std::unordered_set<std::shared_ptr<IGameObject>> m_dynamicObjects;
+        private:
+
+            static std::unordered_set<std::shared_ptr<IGameObject>> m_dynamicObjects;
+            static std::shared_ptr<Level> m_pCurrentLevel;
+
+            static bool hasInterseciton(const std::vector<AABB>& colliders1, const glm::vec2& position1,
+                                        const std::vector<AABB>& colliders2, const glm::vec2& position2);
+    };
 };

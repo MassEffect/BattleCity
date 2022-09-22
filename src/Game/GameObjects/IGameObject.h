@@ -1,6 +1,9 @@
 #pragma once
 
 #include <glm/vec2.hpp>
+#include "../../PhysicsEngine/PhysicsEngine.h"
+#include <vector>
+
 
 class IGameObject
 {
@@ -15,6 +18,9 @@ public:
         virtual double getCurrentVelocity() {return m_velocity;};
         virtual void setVelocity(const double velocity);
 
+        const glm::vec2& getSize()const {return m_size;};
+        const std::vector<Physics::AABB>& getColliders()const {return m_colliders;};
+
 
 protected:
         glm::vec2 m_position;
@@ -24,5 +30,6 @@ protected:
 
         glm::vec2 m_direction;
         double m_velocity;
+        std::vector<Physics::AABB> m_colliders;
 
 };
