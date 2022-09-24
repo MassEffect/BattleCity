@@ -304,7 +304,6 @@ CMakeFiles/BattleCity.dir/src/Game/Game.cpp.obj: src/Game/Game.cpp \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/hashtable.h \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/hashtable_policy.h \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/unordered_set.h \
-  src/Game/GameObjects/Tank.h \
   src/Renderer/SpriteAnimator.h \
   src/System/Timer.h \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/functional \
@@ -315,6 +314,7 @@ CMakeFiles/BattleCity.dir/src/Game/Game.cpp.obj: src/Game/Game.cpp \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/algorithmfwd.h \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_heap.h \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/uniform_int_dist.h \
+  src/Game/GameObjects/Tank.h \
   src/Game/Level.h \
   external/glfw/include/GLFW/glfw3.h \
   external/glm/glm/gtc/matrix_transform.hpp \
@@ -1061,6 +1061,7 @@ CMakeFiles/BattleCity.dir/src/Game/GameObjects/Bullet.cpp.obj: src/Game/GameObje
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_vector.h \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_bvector.h \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/vector.tcc \
+  src/Renderer/SpriteAnimator.h \
   src/Renderer/Sprite.h \
   external/glad/include/glad/glad.h \
   external/glad/include/KHR/khrplatform.h \
@@ -1068,6 +1069,15 @@ CMakeFiles/BattleCity.dir/src/Game/GameObjects/Bullet.cpp.obj: src/Game/GameObje
   src/Renderer/IndexBuffer.h \
   src/Renderer/VertexArray.h \
   src/Renderer/VertexBufferLayout.h \
+  src/System/Timer.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/functional \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/std_function.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/unordered_map \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/unordered_map.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_algo.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/algorithmfwd.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_heap.h \
+  C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/uniform_int_dist.h \
   src/Resources/ResourceManager.h \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/map \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_tree.h \
@@ -5564,8 +5574,6 @@ C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/
 
 C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/hashtable_policy.h:
 
-src/Game/GameObjects/Tank.h:
-
 src/Renderer/SpriteAnimator.h:
 
 C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/functional:
@@ -5581,6 +5589,8 @@ C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/
 external/glm/glm/gtc/matrix_transform.inl:
 
 C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/uniform_int_dist.h:
+
+src/Game/GameObjects/Tank.h:
 
 external/glm/glm/gtc/matrix_transform.hpp:
 

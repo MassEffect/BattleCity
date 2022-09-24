@@ -25,11 +25,12 @@ namespace Physics
         {
             if(currentObject -> getCurrentVelocity() > 0)
             {
-               if(currentObject -> getCurrentDirection().x != 0.0f)
+               // align position to multiple of 4 pixels
+               if(currentObject -> getCurrentDirection().x != 0.0f) // right and left
                {
                    currentObject -> getCurrentPosition() = glm::vec2(currentObject -> getCurrentPosition().x, static_cast<unsigned int>(currentObject -> getCurrentPosition().y / 4.0f + 0.5f) * 4.0f);
                }
-               else if(currentObject -> getCurrentDirection().y != 0.0f)
+               else if(currentObject -> getCurrentDirection().y != 0.0f) // top and bottom
                {
                    currentObject -> getCurrentPosition() = glm::vec2(static_cast<unsigned int>(currentObject -> getCurrentPosition().x / 4.0f + 0.5f) * 4.0f, currentObject ->  getCurrentPosition().y);
                };
@@ -59,13 +60,14 @@ namespace Physics
                }
                else
                {
-                    if(currentObject -> getCurrentDirection().x != 0.0f)
+                    // align position to multiple of 8 pixels
+                    if(currentObject -> getCurrentDirection().x != 0.0f) // right and left
                     {
-                       currentObject -> getCurrentPosition() = glm::vec2(currentObject -> getCurrentPosition().x, static_cast<unsigned int>(currentObject -> getCurrentPosition().y / 8.0f + 0.5f) * 8.0f);
+                       currentObject -> getCurrentPosition() = glm::vec2(static_cast<unsigned int>(currentObject -> getCurrentPosition().x / 8.0f + 0.5f) * 8.0f, currentObject -> getCurrentPosition().y);
                     }
-                    else if(currentObject -> getCurrentDirection().y != 0.0f)
+                    else if(currentObject -> getCurrentDirection().y != 0.0f) // top and bottom
                     {
-                       currentObject -> getCurrentPosition() = glm::vec2(static_cast<unsigned int>(currentObject -> getCurrentPosition().x / 8.0f + 0.5f) * 8.0f, currentObject ->  getCurrentPosition().y);
+                       currentObject -> getCurrentPosition() = glm::vec2(currentObject ->  getCurrentPosition().x, static_cast<unsigned int>(currentObject -> getCurrentPosition().y / 8.0f + 0.5f) * 8.0f);
                     };
                     currentObject -> onCollision();
                };

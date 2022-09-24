@@ -302,7 +302,6 @@ CMakeFiles/BattleCity.dir/src/Game/Game.cpp.obj: \
  C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/hashtable.h \
  C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/hashtable_policy.h \
  C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/unordered_set.h \
- D:\SOFT\c++\Exercise\BattleCity\src\Game\GameObjects/Tank.h \
  D:/SOFT/c++/Exercise/BattleCity/src/Renderer/SpriteAnimator.h \
  D:/SOFT/c++/Exercise/BattleCity/src/System/Timer.h \
  C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/functional \
@@ -313,6 +312,7 @@ CMakeFiles/BattleCity.dir/src/Game/Game.cpp.obj: \
  C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/algorithmfwd.h \
  C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_heap.h \
  C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/uniform_int_dist.h \
+ D:\SOFT\c++\Exercise\BattleCity\src\Game\GameObjects/Tank.h \
  D:\SOFT\c++\Exercise\BattleCity\src\Game\Level.h \
  D:/SOFT/c++/Exercise/BattleCity/external/glfw/include/GLFW/glfw3.h \
  D:/SOFT/c++/Exercise/BattleCity/external/glm/glm/gtc/matrix_transform.hpp \

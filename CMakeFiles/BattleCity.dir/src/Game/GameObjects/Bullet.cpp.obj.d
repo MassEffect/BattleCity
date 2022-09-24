@@ -166,6 +166,7 @@ CMakeFiles/BattleCity.dir/src/Game/GameObjects/Bullet.cpp.obj: \
  C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_vector.h \
  C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_bvector.h \
  C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/vector.tcc \
+ D:/SOFT/c++/Exercise/BattleCity/src/Renderer/SpriteAnimator.h \
  D:/SOFT/c++/Exercise/BattleCity/src/Renderer/Sprite.h \
  D:/SOFT/c++/Exercise/BattleCity/external/glad/include/glad/glad.h \
  D:/SOFT/c++/Exercise/BattleCity/external/glad/include/KHR/khrplatform.h \
@@ -173,6 +174,15 @@ CMakeFiles/BattleCity.dir/src/Game/GameObjects/Bullet.cpp.obj: \
  D:/SOFT/c++/Exercise/BattleCity/src/Renderer/IndexBuffer.h \
  D:/SOFT/c++/Exercise/BattleCity/src/Renderer/VertexArray.h \
  D:/SOFT/c++/Exercise/BattleCity/src/Renderer/VertexBufferLayout.h \
+ D:/SOFT/c++/Exercise/BattleCity/src/System/Timer.h \
+ C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/functional \
+ C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/std_function.h \
+ C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/unordered_map \
+ C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/unordered_map.h \
+ C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_algo.h \
+ C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/algorithmfwd.h \
+ C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_heap.h \
+ C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/uniform_int_dist.h \
  D:/SOFT/c++/Exercise/BattleCity/src/Resources/ResourceManager.h \
  C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/map \
  C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_tree.h \
