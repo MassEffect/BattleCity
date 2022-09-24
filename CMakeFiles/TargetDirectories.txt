@@ -1,0 +1,16 @@
+D:/SOFT/c++/Exercise/BattleCity/CMakeFiles/BattleCity.dir
+D:/SOFT/c++/Exercise/BattleCity/CMakeFiles/edit_cache.dir
+D:/SOFT/c++/Exercise/BattleCity/CMakeFiles/rebuild_cache.dir
+D:/SOFT/c++/Exercise/BattleCity/external/glfw/CMakeFiles/edit_cache.dir
+D:/SOFT/c++/Exercise/BattleCity/external/glfw/CMakeFiles/rebuild_cache.dir
+D:/SOFT/c++/Exercise/BattleCity/external/glfw/src/CMakeFiles/glfw.dir
+D:/SOFT/c++/Exercise/BattleCity/external/glfw/src/CMakeFiles/update_mappings.dir
+D:/SOFT/c++/Exercise/BattleCity/external/glfw/src/CMakeFiles/edit_cache.dir
+D:/SOFT/c++/Exercise/BattleCity/external/glfw/src/CMakeFiles/rebuild_cache.dir
+D:/SOFT/c++/Exercise/BattleCity/external/glad/CMakeFiles/glad.dir
+D:/SOFT/c++/Exercise/BattleCity/external/glad/CMakeFiles/edit_cache.dir
+D:/SOFT/c++/Exercise/BattleCity/external/glad/CMakeFiles/rebuild_cache.dir
+D:/SOFT/c++/Exercise/BattleCity/external/glm/CMakeFiles/edit_cache.dir
+D:/SOFT/c++/Exercise/BattleCity/external/glm/CMakeFiles/rebuild_cache.dir
+D:/SOFT/c++/Exercise/BattleCity/external/glm/glm/CMakeFiles/edit_cache.dir
+D:/SOFT/c++/Exercise/BattleCity/external/glm/glm/CMakeFiles/rebuild_cache.dir
