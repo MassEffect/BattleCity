@@ -3,6 +3,7 @@
 #include "../Renderer/ShaderProgram.h"
 #include "../Renderer/Texture2D.h"
 #include "../Renderer/Sprite.h"
+#include "GameObjects/Bullet.h"
 
 #include "GameObjects/Tank.h"
 #include "Level.h"
@@ -70,6 +71,11 @@ void Game::update(const double delta)
         {
             m_pTank -> setVelocity(0);
         }
+
+        if(m_pTank && m_keys[GLFW_KEY_SPACE])
+        {
+            m_pTank -> fire();
+        };
 
         m_pTank -> update(delta);
     };
