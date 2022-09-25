@@ -29,6 +29,7 @@ public:
     void setOrientation(const EOrientation eOrientation);
     bool isActive()const {return m_isActive;};
     void fire(const glm::vec2 position, const glm::vec2 direction);
+    virtual void onCollision()override;
 
 private:
 
@@ -37,5 +38,6 @@ private:
     std::shared_ptr<RenderEngine::Sprite> m_pSprite_bottom;
     std::shared_ptr<RenderEngine::Sprite> m_pSprite_left;
     std::shared_ptr<RenderEngine::Sprite> m_pSprite_right;
+    double m_maxVelocity;
     bool m_isActive;
 };
