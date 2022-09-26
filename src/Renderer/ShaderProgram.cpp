@@ -60,7 +60,6 @@ namespace RenderEngine
             std::cerr << "ERROE::SHADER: Compile-time error:\n" << infoLog << std::endl;
             return false;
         }
-
         return true;
     };
 

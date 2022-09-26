@@ -49,7 +49,7 @@ std::shared_ptr<IGameObject> createGameObjectFromDescription(const char descript
         return std::make_shared<BrickWall>(BrickWall::EBrickWallType::BottomRight, position, size, rotation, 0.0f);
     case 'I' :
         return std::make_shared<BrickWall>(BrickWall::EBrickWallType::TopLeft, position, size, rotation, 0.0f);
-    case 'j' :
+    case 'J' :
         return std::make_shared<BrickWall>(BrickWall::EBrickWallType::TopRight, position, size, rotation, 0.0f);
     case 'D' :
         return nullptr;
