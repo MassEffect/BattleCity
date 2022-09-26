@@ -1,0 +1,16 @@
+N:/CPP_prj/SimpleCoding/BattleCity/CMakeFiles/BattleCity.dir
+N:/CPP_prj/SimpleCoding/BattleCity/CMakeFiles/edit_cache.dir
+N:/CPP_prj/SimpleCoding/BattleCity/CMakeFiles/rebuild_cache.dir
+N:/CPP_prj/SimpleCoding/BattleCity/external/glfw/CMakeFiles/edit_cache.dir
+N:/CPP_prj/SimpleCoding/BattleCity/external/glfw/CMakeFiles/rebuild_cache.dir
+N:/CPP_prj/SimpleCoding/BattleCity/external/glfw/src/CMakeFiles/glfw.dir
+N:/CPP_prj/SimpleCoding/BattleCity/external/glfw/src/CMakeFiles/update_mappings.dir
+N:/CPP_prj/SimpleCoding/BattleCity/external/glfw/src/CMakeFiles/edit_cache.dir
+N:/CPP_prj/SimpleCoding/BattleCity/external/glfw/src/CMakeFiles/rebuild_cache.dir
+N:/CPP_prj/SimpleCoding/BattleCity/external/glad/CMakeFiles/glad.dir
+N:/CPP_prj/SimpleCoding/BattleCity/external/glad/CMakeFiles/edit_cache.dir
+N:/CPP_prj/SimpleCoding/BattleCity/external/glad/CMakeFiles/rebuild_cache.dir
+N:/CPP_prj/SimpleCoding/BattleCity/external/glm/CMakeFiles/edit_cache.dir
+N:/CPP_prj/SimpleCoding/BattleCity/external/glm/CMakeFiles/rebuild_cache.dir
+N:/CPP_prj/SimpleCoding/BattleCity/external/glm/glm/CMakeFiles/edit_cache.dir
+N:/CPP_prj/SimpleCoding/BattleCity/external/glm/glm/CMakeFiles/rebuild_cache.dir

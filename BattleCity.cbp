@@ -1,0 +1,500 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="BattleCity"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\external\;CMake Files\external\glfw\;CMake Files\external\glfw\CMake\;CMake Files\external\glfw\src\;CMake Files\external\glad\;CMake Files\external\glm\;CMake Files\external\glm\glm\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="N:/CPP_prj/SimpleCoding/BattleCity"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;N:/CPP_prj/SimpleCoding/BattleCity/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/PROGRA~1/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;N:/CPP_prj/SimpleCoding/BattleCity/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;N:/CPP_prj/SimpleCoding/BattleCity/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;N:/CPP_prj/SimpleCoding/BattleCity/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="BattleCity">
+				<Option output="N:/CPP_prj/SimpleCoding/BattleCity/bin/BattleCity.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="N:/CPP_prj/SimpleCoding/BattleCity"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="N:/CPP_prj/SimpleCoding/BattleCity/external/rapidjson/include"/>
+					<Add directory="N:/CPP_prj/SimpleCoding/BattleCity/external/glfw/include"/>
+					<Add directory="N:/CPP_prj/SimpleCoding/BattleCity/external/glad/include"/>
+					<Add directory="N:/CPP_prj/SimpleCoding/BattleCity/external/glm/glm/.."/>
+					<Add directory="C:/Program Files/CodeBlocks/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Program Files/CodeBlocks/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/CodeBlocks/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/CodeBlocks/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files/CodeBlocks/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/CodeBlocks/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="c:\program files\codeblocks\mingw\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="c:\program files\codeblocks\mingw\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="c:\program files\codeblocks\mingw\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;N:/CPP_prj/SimpleCoding/BattleCity/Makefile&quot;  VERBOSE=1 BattleCity"/>
+					<CompileFile command="C:/PROGRA~1/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;N:/CPP_prj/SimpleCoding/BattleCity/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;N:/CPP_prj/SimpleCoding/BattleCity/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;N:/CPP_prj/SimpleCoding/BattleCity/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="BattleCity/fast">
+				<Option output="N:/CPP_prj/SimpleCoding/BattleCity/bin/BattleCity.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="N:/CPP_prj/SimpleCoding/BattleCity"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="N:/CPP_prj/SimpleCoding/BattleCity/external/rapidjson/include"/>
+					<Add directory="N:/CPP_prj/SimpleCoding/BattleCity/external/glfw/include"/>
+					<Add directory="N:/CPP_prj/SimpleCoding/BattleCity/external/glad/include"/>
+					<Add directory="N:/CPP_prj/SimpleCoding/BattleCity/external/glm/glm/.."/>
+					<Add directory="C:/Program Files/CodeBlocks/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Program Files/CodeBlocks/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/CodeBlocks/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/CodeBlocks/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files/CodeBlocks/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/CodeBlocks/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="c:\program files\codeblocks\mingw\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="c:\program files\codeblocks\mingw\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="c:\program files\codeblocks\mingw\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;N:/CPP_prj/SimpleCoding/BattleCity/Makefile&quot;  VERBOSE=1 BattleCity/fast"/>
+					<CompileFile command="C:/PROGRA~1/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;N:/CPP_prj/SimpleCoding/BattleCity/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;N:/CPP_prj/SimpleCoding/BattleCity/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;N:/CPP_prj/SimpleCoding/BattleCity/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="N:/CPP_prj/SimpleCoding/BattleCity"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;N:/CPP_prj/SimpleCoding/BattleCity/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/PROGRA~1/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;N:/CPP_prj/SimpleCoding/BattleCity/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;N:/CPP_prj/SimpleCoding/BattleCity/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;N:/CPP_prj/SimpleCoding/BattleCity/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="N:/CPP_prj/SimpleCoding/BattleCity"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;N:/CPP_prj/SimpleCoding/BattleCity/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/PROGRA~1/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;N:/CPP_prj/SimpleCoding/BattleCity/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;N:/CPP_prj/SimpleCoding/BattleCity/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;N:/CPP_prj/SimpleCoding/BattleCity/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="glfw">
+				<Option output="N:/CPP_prj/SimpleCoding/BattleCity/external/glfw/src/libglfw3.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="N:/CPP_prj/SimpleCoding/BattleCity/external/glfw/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_GLFW_WIN32"/>
+					<Add option="-DUNICODE"/>
+					<Add option="-D_UNICODE"/>
+					<Add option="-DWINVER=0x0501"/>
+					<Add directory="N:/CPP_prj/SimpleCoding/BattleCity/external/glfw/include"/>
+					<Add directory="N:/CPP_prj/SimpleCoding/BattleCity/external/glfw/src"/>
+					<Add directory="C:/Program Files/CodeBlocks/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Program Files/CodeBlocks/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/CodeBlocks/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/CodeBlocks/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files/CodeBlocks/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/CodeBlocks/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="c:\program files\codeblocks\mingw\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="c:\program files\codeblocks\mingw\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="c:\program files\codeblocks\mingw\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;N:/CPP_prj/SimpleCoding/BattleCity/external/glfw/src/Makefile&quot;  VERBOSE=1 glfw"/>
+					<CompileFile command="C:/PROGRA~1/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;N:/CPP_prj/SimpleCoding/BattleCity/external/glfw/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;N:/CPP_prj/SimpleCoding/BattleCity/external/glfw/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;N:/CPP_prj/SimpleCoding/BattleCity/external/glfw/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="glfw/fast">
+				<Option output="N:/CPP_prj/SimpleCoding/BattleCity/external/glfw/src/libglfw3.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="N:/CPP_prj/SimpleCoding/BattleCity/external/glfw/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_GLFW_WIN32"/>
+					<Add option="-DUNICODE"/>
+					<Add option="-D_UNICODE"/>
+					<Add option="-DWINVER=0x0501"/>
+					<Add directory="N:/CPP_prj/SimpleCoding/BattleCity/external/glfw/include"/>
+					<Add directory="N:/CPP_prj/SimpleCoding/BattleCity/external/glfw/src"/>
+					<Add directory="C:/Program Files/CodeBlocks/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Program Files/CodeBlocks/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/CodeBlocks/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/CodeBlocks/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files/CodeBlocks/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/CodeBlocks/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="c:\program files\codeblocks\mingw\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="c:\program files\codeblocks\mingw\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="c:\program files\codeblocks\mingw\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;N:/CPP_prj/SimpleCoding/BattleCity/external/glfw/src/Makefile&quot;  VERBOSE=1 glfw/fast"/>
+					<CompileFile command="C:/PROGRA~1/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;N:/CPP_prj/SimpleCoding/BattleCity/external/glfw/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;N:/CPP_prj/SimpleCoding/BattleCity/external/glfw/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;N:/CPP_prj/SimpleCoding/BattleCity/external/glfw/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="update_mappings">
+				<Option working_dir="N:/CPP_prj/SimpleCoding/BattleCity/external/glfw/src"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;N:/CPP_prj/SimpleCoding/BattleCity/external/glfw/src/Makefile&quot;  VERBOSE=1 update_mappings"/>
+					<CompileFile command="C:/PROGRA~1/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;N:/CPP_prj/SimpleCoding/BattleCity/external/glfw/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;N:/CPP_prj/SimpleCoding/BattleCity/external/glfw/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;N:/CPP_prj/SimpleCoding/BattleCity/external/glfw/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="glad">
+				<Option output="N:/CPP_prj/SimpleCoding/BattleCity/external/glad/libglad.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="N:/CPP_prj/SimpleCoding/BattleCity/external/glad"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="N:/CPP_prj/SimpleCoding/BattleCity/external/glad/include"/>
+					<Add directory="C:/Program Files/CodeBlocks/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Program Files/CodeBlocks/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/CodeBlocks/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/CodeBlocks/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files/CodeBlocks/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/CodeBlocks/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="c:\program files\codeblocks\mingw\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="c:\program files\codeblocks\mingw\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="c:\program files\codeblocks\mingw\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;N:/CPP_prj/SimpleCoding/BattleCity/external/glad/Makefile&quot;  VERBOSE=1 glad"/>
+					<CompileFile command="C:/PROGRA~1/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;N:/CPP_prj/SimpleCoding/BattleCity/external/glad/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;N:/CPP_prj/SimpleCoding/BattleCity/external/glad/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;N:/CPP_prj/SimpleCoding/BattleCity/external/glad/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="glad/fast">
+				<Option output="N:/CPP_prj/SimpleCoding/BattleCity/external/glad/libglad.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="N:/CPP_prj/SimpleCoding/BattleCity/external/glad"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="N:/CPP_prj/SimpleCoding/BattleCity/external/glad/include"/>
+					<Add directory="C:/Program Files/CodeBlocks/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Program Files/CodeBlocks/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/CodeBlocks/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/CodeBlocks/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files/CodeBlocks/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/CodeBlocks/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="c:\program files\codeblocks\mingw\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="c:\program files\codeblocks\mingw\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="c:\program files\codeblocks\mingw\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;N:/CPP_prj/SimpleCoding/BattleCity/external/glad/Makefile&quot;  VERBOSE=1 glad/fast"/>
+					<CompileFile command="C:/PROGRA~1/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;N:/CPP_prj/SimpleCoding/BattleCity/external/glad/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;N:/CPP_prj/SimpleCoding/BattleCity/external/glad/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;N:/CPP_prj/SimpleCoding/BattleCity/external/glad/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="N:/CPP_prj/SimpleCoding/BattleCity/external/glad/include/glad/glad.h">
+			<Option target="glad"/>
+		</Unit>
+		<Unit filename="N:/CPP_prj/SimpleCoding/BattleCity/external/glad/src/glad.c">
+			<Option target="glad"/>
+		</Unit>
+		<Unit filename="N:/CPP_prj/SimpleCoding/BattleCity/external/glfw/CMake/GenerateMappings.cmake">
+			<Option target="update_mappings"/>
+		</Unit>
+		<Unit filename="N:/CPP_prj/SimpleCoding/BattleCity/external/glfw/include/GLFW/glfw3.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="N:/CPP_prj/SimpleCoding/BattleCity/external/glfw/include/GLFW/glfw3native.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="N:/CPP_prj/SimpleCoding/BattleCity/external/glfw/src/context.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="N:/CPP_prj/SimpleCoding/BattleCity/external/glfw/src/egl_context.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="N:/CPP_prj/SimpleCoding/BattleCity/external/glfw/src/init.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="N:/CPP_prj/SimpleCoding/BattleCity/external/glfw/src/input.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="N:/CPP_prj/SimpleCoding/BattleCity/external/glfw/src/internal.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="N:/CPP_prj/SimpleCoding/BattleCity/external/glfw/src/mappings.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="N:/CPP_prj/SimpleCoding/BattleCity/external/glfw/src/mappings.h.in">
+			<Option target="update_mappings"/>
+		</Unit>
+		<Unit filename="N:/CPP_prj/SimpleCoding/BattleCity/external/glfw/src/monitor.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="N:/CPP_prj/SimpleCoding/BattleCity/external/glfw/src/null_init.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="N:/CPP_prj/SimpleCoding/BattleCity/external/glfw/src/null_joystick.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="N:/CPP_prj/SimpleCoding/BattleCity/external/glfw/src/null_joystick.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="N:/CPP_prj/SimpleCoding/BattleCity/external/glfw/src/null_monitor.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="N:/CPP_prj/SimpleCoding/BattleCity/external/glfw/src/null_platform.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="N:/CPP_prj/SimpleCoding/BattleCity/external/glfw/src/null_window.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="N:/CPP_prj/SimpleCoding/BattleCity/external/glfw/src/osmesa_context.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="N:/CPP_prj/SimpleCoding/BattleCity/external/glfw/src/platform.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="N:/CPP_prj/SimpleCoding/BattleCity/external/glfw/src/platform.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="N:/CPP_prj/SimpleCoding/BattleCity/external/glfw/src/vulkan.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="N:/CPP_prj/SimpleCoding/BattleCity/external/glfw/src/wgl_context.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="N:/CPP_prj/SimpleCoding/BattleCity/external/glfw/src/win32_init.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="N:/CPP_prj/SimpleCoding/BattleCity/external/glfw/src/win32_joystick.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="N:/CPP_prj/SimpleCoding/BattleCity/external/glfw/src/win32_joystick.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="N:/CPP_prj/SimpleCoding/BattleCity/external/glfw/src/win32_module.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="N:/CPP_prj/SimpleCoding/BattleCity/external/glfw/src/win32_monitor.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="N:/CPP_prj/SimpleCoding/BattleCity/external/glfw/src/win32_platform.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="N:/CPP_prj/SimpleCoding/BattleCity/external/glfw/src/win32_thread.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="N:/CPP_prj/SimpleCoding/BattleCity/external/glfw/src/win32_thread.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="N:/CPP_prj/SimpleCoding/BattleCity/external/glfw/src/win32_time.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="N:/CPP_prj/SimpleCoding/BattleCity/external/glfw/src/win32_time.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="N:/CPP_prj/SimpleCoding/BattleCity/external/glfw/src/win32_window.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="N:/CPP_prj/SimpleCoding/BattleCity/external/glfw/src/window.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="N:/CPP_prj/SimpleCoding/BattleCity/src/Game/Game.cpp">
+			<Option target="BattleCity"/>
+		</Unit>
+		<Unit filename="N:/CPP_prj/SimpleCoding/BattleCity/src/Game/Game.h">
+			<Option target="BattleCity"/>
+		</Unit>
+		<Unit filename="N:/CPP_prj/SimpleCoding/BattleCity/src/Game/GameObjects/BetonWall.cpp">
+			<Option target="BattleCity"/>
+		</Unit>
+		<Unit filename="N:/CPP_prj/SimpleCoding/BattleCity/src/Game/GameObjects/BetonWall.h">
+			<Option target="BattleCity"/>
+		</Unit>
+		<Unit filename="N:/CPP_prj/SimpleCoding/BattleCity/src/Game/GameObjects/Border.cpp">
+			<Option target="BattleCity"/>
+		</Unit>
+		<Unit filename="N:/CPP_prj/SimpleCoding/BattleCity/src/Game/GameObjects/Border.h">
+			<Option target="BattleCity"/>
+		</Unit>
+		<Unit filename="N:/CPP_prj/SimpleCoding/BattleCity/src/Game/GameObjects/BrickWall.cpp">
+			<Option target="BattleCity"/>
+		</Unit>
+		<Unit filename="N:/CPP_prj/SimpleCoding/BattleCity/src/Game/GameObjects/BrickWall.h">
+			<Option target="BattleCity"/>
+		</Unit>
+		<Unit filename="N:/CPP_prj/SimpleCoding/BattleCity/src/Game/GameObjects/Bullet.cpp">
+			<Option target="BattleCity"/>
+		</Unit>
+		<Unit filename="N:/CPP_prj/SimpleCoding/BattleCity/src/Game/GameObjects/Bullet.h">
+			<Option target="BattleCity"/>
+		</Unit>
+		<Unit filename="N:/CPP_prj/SimpleCoding/BattleCity/src/Game/GameObjects/Eagle.cpp">
+			<Option target="BattleCity"/>
+		</Unit>
+		<Unit filename="N:/CPP_prj/SimpleCoding/BattleCity/src/Game/GameObjects/Eagle.h">
+			<Option target="BattleCity"/>
+		</Unit>
+		<Unit filename="N:/CPP_prj/SimpleCoding/BattleCity/src/Game/GameObjects/IGameObject.cpp">
+			<Option target="BattleCity"/>
+		</Unit>
+		<Unit filename="N:/CPP_prj/SimpleCoding/BattleCity/src/Game/GameObjects/IGameObject.h">
+			<Option target="BattleCity"/>
+		</Unit>
+		<Unit filename="N:/CPP_prj/SimpleCoding/BattleCity/src/Game/GameObjects/Ice.cpp">
+			<Option target="BattleCity"/>
+		</Unit>
+		<Unit filename="N:/CPP_prj/SimpleCoding/BattleCity/src/Game/GameObjects/Ice.h">
+			<Option target="BattleCity"/>
+		</Unit>
+		<Unit filename="N:/CPP_prj/SimpleCoding/BattleCity/src/Game/GameObjects/Tank.cpp">
+			<Option target="BattleCity"/>
+		</Unit>
+		<Unit filename="N:/CPP_prj/SimpleCoding/BattleCity/src/Game/GameObjects/Tank.h">
+			<Option target="BattleCity"/>
+		</Unit>
+		<Unit filename="N:/CPP_prj/SimpleCoding/BattleCity/src/Game/GameObjects/Trees.cpp">
+			<Option target="BattleCity"/>
+		</Unit>
+		<Unit filename="N:/CPP_prj/SimpleCoding/BattleCity/src/Game/GameObjects/Trees.h">
+			<Option target="BattleCity"/>
+		</Unit>
+		<Unit filename="N:/CPP_prj/SimpleCoding/BattleCity/src/Game/GameObjects/Water.cpp">
+			<Option target="BattleCity"/>
+		</Unit>
+		<Unit filename="N:/CPP_prj/SimpleCoding/BattleCity/src/Game/GameObjects/Water.h">
+			<Option target="BattleCity"/>
+		</Unit>
+		<Unit filename="N:/CPP_prj/SimpleCoding/BattleCity/src/Game/Level.cpp">
+			<Option target="BattleCity"/>
+		</Unit>
+		<Unit filename="N:/CPP_prj/SimpleCoding/BattleCity/src/Game/Level.h">
+			<Option target="BattleCity"/>
+		</Unit>
+		<Unit filename="N:/CPP_prj/SimpleCoding/BattleCity/src/PhysicsEngine/PhysicsEngine.cpp">
+			<Option target="BattleCity"/>
+		</Unit>
+		<Unit filename="N:/CPP_prj/SimpleCoding/BattleCity/src/PhysicsEngine/PhysicsEngine.h">
+			<Option target="BattleCity"/>
+		</Unit>
+		<Unit filename="N:/CPP_prj/SimpleCoding/BattleCity/src/Renderer/IndexBuffer.cpp">
+			<Option target="BattleCity"/>
+		</Unit>
+		<Unit filename="N:/CPP_prj/SimpleCoding/BattleCity/src/Renderer/IndexBuffer.h">
+			<Option target="BattleCity"/>
+		</Unit>
+		<Unit filename="N:/CPP_prj/SimpleCoding/BattleCity/src/Renderer/Renderer.cpp">
+			<Option target="BattleCity"/>
+		</Unit>
+		<Unit filename="N:/CPP_prj/SimpleCoding/BattleCity/src/Renderer/Renderer.h">
+			<Option target="BattleCity"/>
+		</Unit>
+		<Unit filename="N:/CPP_prj/SimpleCoding/BattleCity/src/Renderer/ShaderProgram.cpp">
+			<Option target="BattleCity"/>
+		</Unit>
+		<Unit filename="N:/CPP_prj/SimpleCoding/BattleCity/src/Renderer/ShaderProgram.h">
+			<Option target="BattleCity"/>
+		</Unit>
+		<Unit filename="N:/CPP_prj/SimpleCoding/BattleCity/src/Renderer/Sprite.cpp">
+			<Option target="BattleCity"/>
+		</Unit>
+		<Unit filename="N:/CPP_prj/SimpleCoding/BattleCity/src/Renderer/Sprite.h">
+			<Option target="BattleCity"/>
+		</Unit>
+		<Unit filename="N:/CPP_prj/SimpleCoding/BattleCity/src/Renderer/SpriteAnimator.cpp">
+			<Option target="BattleCity"/>
+		</Unit>
+		<Unit filename="N:/CPP_prj/SimpleCoding/BattleCity/src/Renderer/SpriteAnimator.h">
+			<Option target="BattleCity"/>
+		</Unit>
+		<Unit filename="N:/CPP_prj/SimpleCoding/BattleCity/src/Renderer/Texture2D.cpp">
+			<Option target="BattleCity"/>
+		</Unit>
+		<Unit filename="N:/CPP_prj/SimpleCoding/BattleCity/src/Renderer/Texture2D.h">
+			<Option target="BattleCity"/>
+		</Unit>
+		<Unit filename="N:/CPP_prj/SimpleCoding/BattleCity/src/Renderer/VertexArray.cpp">
+			<Option target="BattleCity"/>
+		</Unit>
+		<Unit filename="N:/CPP_prj/SimpleCoding/BattleCity/src/Renderer/VertexArray.h">
+			<Option target="BattleCity"/>
+		</Unit>
+		<Unit filename="N:/CPP_prj/SimpleCoding/BattleCity/src/Renderer/VertexBuffer.cpp">
+			<Option target="BattleCity"/>
+		</Unit>
+		<Unit filename="N:/CPP_prj/SimpleCoding/BattleCity/src/Renderer/VertexBuffer.h">
+			<Option target="BattleCity"/>
+		</Unit>
+		<Unit filename="N:/CPP_prj/SimpleCoding/BattleCity/src/Renderer/VertexBufferLayout.cpp">
+			<Option target="BattleCity"/>
+		</Unit>
+		<Unit filename="N:/CPP_prj/SimpleCoding/BattleCity/src/Renderer/VertexBufferLayout.h">
+			<Option target="BattleCity"/>
+		</Unit>
+		<Unit filename="N:/CPP_prj/SimpleCoding/BattleCity/src/Resources/ResourceManager.cpp">
+			<Option target="BattleCity"/>
+		</Unit>
+		<Unit filename="N:/CPP_prj/SimpleCoding/BattleCity/src/Resources/ResourceManager.h">
+			<Option target="BattleCity"/>
+		</Unit>
+		<Unit filename="N:/CPP_prj/SimpleCoding/BattleCity/src/Resources/stb_image.h">
+			<Option target="BattleCity"/>
+		</Unit>
+		<Unit filename="N:/CPP_prj/SimpleCoding/BattleCity/src/System/Timer.cpp">
+			<Option target="BattleCity"/>
+		</Unit>
+		<Unit filename="N:/CPP_prj/SimpleCoding/BattleCity/src/System/Timer.h">
+			<Option target="BattleCity"/>
+		</Unit>
+		<Unit filename="N:/CPP_prj/SimpleCoding/BattleCity/src/main.cpp">
+			<Option target="BattleCity"/>
+		</Unit>
+		<Unit filename="N:/CPP_prj/SimpleCoding/BattleCity/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="N:/CPP_prj/SimpleCoding/BattleCity/external/glfw/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\external\glfw\"/>
+		</Unit>
+		<Unit filename="N:/CPP_prj/SimpleCoding/BattleCity/external/glfw/CMake/glfw3.pc.in">
+			<Option virtualFolder="CMake Files\external\glfw\CMake\"/>
+		</Unit>
+		<Unit filename="N:/CPP_prj/SimpleCoding/BattleCity/external/glfw/CMake/glfw3Config.cmake.in">
+			<Option virtualFolder="CMake Files\external\glfw\CMake\"/>
+		</Unit>
+		<Unit filename="N:/CPP_prj/SimpleCoding/BattleCity/external/glfw/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\external\glfw\src\"/>
+		</Unit>
+		<Unit filename="N:/CPP_prj/SimpleCoding/BattleCity/external/glad/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\external\glad\"/>
+		</Unit>
+		<Unit filename="N:/CPP_prj/SimpleCoding/BattleCity/external/glm/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\external\glm\"/>
+		</Unit>
+		<Unit filename="N:/CPP_prj/SimpleCoding/BattleCity/external/glm/glm/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\external\glm\glm\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

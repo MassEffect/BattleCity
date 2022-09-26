@@ -1,0 +1,1 @@
+  -LC:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/X86_64~1/112~1.0  external/glfw/src/libglfw3.a external/glad/libglad.a -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 
