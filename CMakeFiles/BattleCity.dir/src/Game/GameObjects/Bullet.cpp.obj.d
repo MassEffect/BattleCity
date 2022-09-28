@@ -158,7 +158,7 @@ CMakeFiles/BattleCity.dir/src/Game/GameObjects/Bullet.cpp.obj: \
  N:/CPP_prj/SimpleCoding/BattleCity/external/glm/glm/ext/vector_uint2_sized.hpp \
  N:/CPP_prj/SimpleCoding/BattleCity/external/glm/glm/ext/scalar_uint_sized.hpp \
  N:\CPP_prj\SimpleCoding\BattleCity\src\Game\GameObjects\IGameObject.h \
- N:/CPP_prj/SimpleCoding/BattleCity/src/PhysicsEngine/PhysicsEngine.h \
+ N:/CPP_prj/SimpleCoding/BattleCity/src/Physics/PhysicsEngine.h \
  C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/unordered_set \
  C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/hashtable.h \
  C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/hashtable_policy.h \

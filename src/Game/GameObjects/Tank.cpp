@@ -2,7 +2,7 @@
 #include "../../Renderer/Sprite.h"
 #include "../../Resources/ResourceManager.h"
 #include "Bullet.h"
-#include "../../PhysicsEngine/PhysicsEngine.h"
+#include "../../Physics/PhysicsEngine.h"
 #include <iostream>
 
 Tank::Tank( const double maxVelocity,

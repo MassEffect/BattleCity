@@ -1,24 +1,16 @@
 CMakeFiles/BattleCity.dir/src/Game/Game.cpp.obj: \
  N:\CPP_prj\SimpleCoding\BattleCity\src\Game\Game.cpp \
  N:\CPP_prj\SimpleCoding\BattleCity\src\Game\Game.h \
- C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/array \
- C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/utility \
+ N:/CPP_prj/SimpleCoding/BattleCity/external/glm/glm/vec2.hpp \
+ N:/CPP_prj/SimpleCoding/BattleCity/external/glm/glm/ext/vector_bool2.hpp \
+ N:/CPP_prj/SimpleCoding/BattleCity/external/glm/glm/detail/type_vec2.hpp \
+ N:/CPP_prj/SimpleCoding/BattleCity/external/glm/glm/detail/qualifier.hpp \
+ N:/CPP_prj/SimpleCoding/BattleCity/external/glm/glm/detail/setup.hpp \
+ C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cassert \
  C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/c++config.h \
  C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/os_defines.h \
  C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/cpu_defines.h \
- C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_relops.h \
- C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_pair.h \
- C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/move.h \
- C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/concept_check.h \
- C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/type_traits \
- C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/initializer_list \
- C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/exception \
- C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/exception.h \
- C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/exception_ptr.h \
- C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/exception_defines.h \
- C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/cxxabi_init_exception.h \
- C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/stddef.h \
- C:/PROGRA~1/CODEBL~1/MinGW/x86_64-w64-mingw32/include/stddef.h \
+ C:/PROGRA~1/CODEBL~1/MinGW/x86_64-w64-mingw32/include/assert.h \
  C:/PROGRA~1/CODEBL~1/MinGW/x86_64-w64-mingw32/include/crtdefs.h \
  C:/PROGRA~1/CODEBL~1/MinGW/x86_64-w64-mingw32/include/corecrt.h \
  C:/PROGRA~1/CODEBL~1/MinGW/x86_64-w64-mingw32/include/_mingw.h \
@@ -26,6 +18,53 @@ CMakeFiles/BattleCity.dir/src/Game/Game.cpp.obj: \
  C:/PROGRA~1/CODEBL~1/MinGW/x86_64-w64-mingw32/include/_mingw_secapi.h \
  C:/PROGRA~1/CODEBL~1/MinGW/x86_64-w64-mingw32/include/vadefs.h \
  C:/PROGRA~1/CODEBL~1/MinGW/x86_64-w64-mingw32/include/sdks/_mingw_ddk.h \
+ C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/stdlib.h \
+ C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cstdlib \
+ C:/PROGRA~1/CODEBL~1/MinGW/x86_64-w64-mingw32/include/stdlib.h \
+ C:/PROGRA~1/CODEBL~1/MinGW/x86_64-w64-mingw32/include/corecrt_wstdlib.h \
+ C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed/limits.h \
+ C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed/syslimits.h \
+ C:/PROGRA~1/CODEBL~1/MinGW/x86_64-w64-mingw32/include/limits.h \
+ C:/PROGRA~1/CODEBL~1/MinGW/x86_64-w64-mingw32/include/sec_api/stdlib_s.h \
+ C:/PROGRA~1/CODEBL~1/MinGW/x86_64-w64-mingw32/include/malloc.h \
+ C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/mm_malloc.h \
+ C:/PROGRA~1/CODEBL~1/MinGW/x86_64-w64-mingw32/include/errno.h \
+ C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/std_abs.h \
+ C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cstddef \
+ C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/stddef.h \
+ C:/PROGRA~1/CODEBL~1/MinGW/x86_64-w64-mingw32/include/stddef.h \
+ N:/CPP_prj/SimpleCoding/BattleCity/external/glm/glm/simd/platform.h \
+ C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cstdint \
+ C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/stdint.h \
+ C:/PROGRA~1/CODEBL~1/MinGW/x86_64-w64-mingw32/include/stdint.h \
+ C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/type_traits \
+ N:/CPP_prj/SimpleCoding/BattleCity/external/glm/glm/detail/type_vec2.inl \
+ N:/CPP_prj/SimpleCoding/BattleCity/external/glm/glm/detail/compute_vector_relational.hpp \
+ C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/limits \
+ N:/CPP_prj/SimpleCoding/BattleCity/external/glm/glm/ext/vector_bool2_precision.hpp \
+ N:/CPP_prj/SimpleCoding/BattleCity/external/glm/glm/ext/vector_float2.hpp \
+ N:/CPP_prj/SimpleCoding/BattleCity/external/glm/glm/ext/vector_float2_precision.hpp \
+ N:/CPP_prj/SimpleCoding/BattleCity/external/glm/glm/ext/vector_double2.hpp \
+ N:/CPP_prj/SimpleCoding/BattleCity/external/glm/glm/ext/vector_double2_precision.hpp \
+ N:/CPP_prj/SimpleCoding/BattleCity/external/glm/glm/ext/vector_int2.hpp \
+ N:/CPP_prj/SimpleCoding/BattleCity/external/glm/glm/ext/vector_int2_sized.hpp \
+ N:/CPP_prj/SimpleCoding/BattleCity/external/glm/glm/ext/scalar_int_sized.hpp \
+ N:/CPP_prj/SimpleCoding/BattleCity/external/glm/glm/detail/setup.hpp \
+ N:/CPP_prj/SimpleCoding/BattleCity/external/glm/glm/ext/vector_uint2.hpp \
+ N:/CPP_prj/SimpleCoding/BattleCity/external/glm/glm/ext/vector_uint2_sized.hpp \
+ N:/CPP_prj/SimpleCoding/BattleCity/external/glm/glm/ext/scalar_uint_sized.hpp \
+ C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/array \
+ C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/utility \
+ C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_relops.h \
+ C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_pair.h \
+ C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/move.h \
+ C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/concept_check.h \
+ C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/initializer_list \
+ C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/exception \
+ C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/exception.h \
+ C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/exception_ptr.h \
+ C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/exception_defines.h \
+ C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/cxxabi_init_exception.h \
  C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/typeinfo \
  C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/hash_bytes.h \
  C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/new \
@@ -51,14 +90,10 @@ CMakeFiles/BattleCity.dir/src/Game/Game.cpp.obj: \
  C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cwchar \
  C:/PROGRA~1/CODEBL~1/MinGW/x86_64-w64-mingw32/include/wchar.h \
  C:/PROGRA~1/CODEBL~1/MinGW/x86_64-w64-mingw32/include/corecrt_stdio_config.h \
- C:/PROGRA~1/CODEBL~1/MinGW/x86_64-w64-mingw32/include/corecrt_wstdlib.h \
  C:/PROGRA~1/CODEBL~1/MinGW/x86_64-w64-mingw32/include/_mingw_off_t.h \
  C:/PROGRA~1/CODEBL~1/MinGW/x86_64-w64-mingw32/include/_mingw_stat64.h \
  C:/PROGRA~1/CODEBL~1/MinGW/x86_64-w64-mingw32/include/swprintf.inl \
  C:/PROGRA~1/CODEBL~1/MinGW/x86_64-w64-mingw32/include/sec_api/wchar_s.h \
- C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cstdint \
- C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/stdint.h \
- C:/PROGRA~1/CODEBL~1/MinGW/x86_64-w64-mingw32/include/stdint.h \
  C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/allocator.h \
  C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/c++allocator.h \
  C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ext/new_allocator.h \
@@ -81,13 +116,9 @@ CMakeFiles/BattleCity.dir/src/Game/Game.cpp.obj: \
  C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/gthr.h \
  C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/gthr-default.h \
  C:/PROGRA~1/CODEBL~1/MinGW/x86_64-w64-mingw32/include/pthread.h \
- C:/PROGRA~1/CODEBL~1/MinGW/x86_64-w64-mingw32/include/errno.h \
  C:/PROGRA~1/CODEBL~1/MinGW/x86_64-w64-mingw32/include/sys/types.h \
  C:/PROGRA~1/CODEBL~1/MinGW/x86_64-w64-mingw32/include/process.h \
  C:/PROGRA~1/CODEBL~1/MinGW/x86_64-w64-mingw32/include/corecrt_startup.h \
- C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed/limits.h \
- C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed/syslimits.h \
- C:/PROGRA~1/CODEBL~1/MinGW/x86_64-w64-mingw32/include/limits.h \
  C:/PROGRA~1/CODEBL~1/MinGW/x86_64-w64-mingw32/include/signal.h \
  C:/PROGRA~1/CODEBL~1/MinGW/x86_64-w64-mingw32/include/pthread_signal.h \
  C:/PROGRA~1/CODEBL~1/MinGW/x86_64-w64-mingw32/include/time.h \
@@ -101,17 +132,9 @@ CMakeFiles/BattleCity.dir/src/Game/Game.cpp.obj: \
  C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ext/alloc_traits.h \
  C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/alloc_traits.h \
  C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/string_view \
- C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/limits \
  C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/functional_hash.h \
  C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/string_view.tcc \
  C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ext/string_conversions.h \
- C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cstdlib \
- C:/PROGRA~1/CODEBL~1/MinGW/x86_64-w64-mingw32/include/stdlib.h \
- C:/PROGRA~1/CODEBL~1/MinGW/x86_64-w64-mingw32/include/sec_api/stdlib_s.h \
- C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/stdlib.h \
- C:/PROGRA~1/CODEBL~1/MinGW/x86_64-w64-mingw32/include/malloc.h \
- C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/mm_malloc.h \
- C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/std_abs.h \
  C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cstdio \
  C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cerrno \
  C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/basic_string.tcc \
@@ -134,29 +157,6 @@ CMakeFiles/BattleCity.dir/src/Game/Game.cpp.obj: \
  C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/atomic_base.h \
  C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/atomic_lockfree_defines.h \
  C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward/auto_ptr.h \
- N:/CPP_prj/SimpleCoding/BattleCity/external/glm/glm/vec2.hpp \
- N:/CPP_prj/SimpleCoding/BattleCity/external/glm/glm/ext/vector_bool2.hpp \
- N:/CPP_prj/SimpleCoding/BattleCity/external/glm/glm/detail/type_vec2.hpp \
- N:/CPP_prj/SimpleCoding/BattleCity/external/glm/glm/detail/qualifier.hpp \
- N:/CPP_prj/SimpleCoding/BattleCity/external/glm/glm/detail/setup.hpp \
- C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cassert \
- C:/PROGRA~1/CODEBL~1/MinGW/x86_64-w64-mingw32/include/assert.h \
- C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cstddef \
- N:/CPP_prj/SimpleCoding/BattleCity/external/glm/glm/simd/platform.h \
- N:/CPP_prj/SimpleCoding/BattleCity/external/glm/glm/detail/type_vec2.inl \
- N:/CPP_prj/SimpleCoding/BattleCity/external/glm/glm/detail/compute_vector_relational.hpp \
- N:/CPP_prj/SimpleCoding/BattleCity/external/glm/glm/ext/vector_bool2_precision.hpp \
- N:/CPP_prj/SimpleCoding/BattleCity/external/glm/glm/ext/vector_float2.hpp \
- N:/CPP_prj/SimpleCoding/BattleCity/external/glm/glm/ext/vector_float2_precision.hpp \
- N:/CPP_prj/SimpleCoding/BattleCity/external/glm/glm/ext/vector_double2.hpp \
- N:/CPP_prj/SimpleCoding/BattleCity/external/glm/glm/ext/vector_double2_precision.hpp \
- N:/CPP_prj/SimpleCoding/BattleCity/external/glm/glm/ext/vector_int2.hpp \
- N:/CPP_prj/SimpleCoding/BattleCity/external/glm/glm/ext/vector_int2_sized.hpp \
- N:/CPP_prj/SimpleCoding/BattleCity/external/glm/glm/ext/scalar_int_sized.hpp \
- N:/CPP_prj/SimpleCoding/BattleCity/external/glm/glm/detail/setup.hpp \
- N:/CPP_prj/SimpleCoding/BattleCity/external/glm/glm/ext/vector_uint2.hpp \
- N:/CPP_prj/SimpleCoding/BattleCity/external/glm/glm/ext/vector_uint2_sized.hpp \
- N:/CPP_prj/SimpleCoding/BattleCity/external/glm/glm/ext/scalar_uint_sized.hpp \
  N:/CPP_prj/SimpleCoding/BattleCity/src/Resources/ResourceManager.h \
  C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/map \
  C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_tree.h \
@@ -299,9 +299,9 @@ CMakeFiles/BattleCity.dir/src/Game/Game.cpp.obj: \
  N:/CPP_prj/SimpleCoding/BattleCity/src/Renderer/IndexBuffer.h \
  N:/CPP_prj/SimpleCoding/BattleCity/src/Renderer/VertexArray.h \
  N:/CPP_prj/SimpleCoding/BattleCity/src/Renderer/VertexBufferLayout.h \
- N:\CPP_prj\SimpleCoding\BattleCity\src\Game\GameObjects/Bullet.h \
+ N:\CPP_prj\SimpleCoding\BattleCity\src\Game\GameObjects/Tank.h \
  N:\CPP_prj\SimpleCoding\BattleCity\src\Game\GameObjects/IGameObject.h \
- N:/CPP_prj/SimpleCoding/BattleCity/src/PhysicsEngine/PhysicsEngine.h \
+ N:/CPP_prj/SimpleCoding/BattleCity/src/Physics/PhysicsEngine.h \
  C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/unordered_set \
  C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/hashtable.h \
  C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/hashtable_policy.h \
@@ -316,8 +316,10 @@ CMakeFiles/BattleCity.dir/src/Game/Game.cpp.obj: \
  C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/uniform_int_dist.h \
  N:/CPP_prj/SimpleCoding/BattleCity/src/Renderer/SpriteAnimator.h \
  N:/CPP_prj/SimpleCoding/BattleCity/src/System/Timer.h \
- N:\CPP_prj\SimpleCoding\BattleCity\src\Game\GameObjects/Tank.h \
- N:\CPP_prj\SimpleCoding\BattleCity\src\Game\Level.h \
+ N:\CPP_prj\SimpleCoding\BattleCity\src\Game\GameObjects/Bullet.h \
+ N:\CPP_prj\SimpleCoding\BattleCity\src\Game\GameStates/Level.h \
+ N:\CPP_prj\SimpleCoding\BattleCity\src\Game\GameStates/IGameState.h \
+ N:\CPP_prj\SimpleCoding\BattleCity\src\Game\GameStates/StartScreen.h \
  N:/CPP_prj/SimpleCoding/BattleCity/external/glfw/include/GLFW/glfw3.h \
  N:/CPP_prj/SimpleCoding/BattleCity/external/glm/glm/gtc/matrix_transform.hpp \
  N:/CPP_prj/SimpleCoding/BattleCity/external/glm/glm/ext/matrix_projection.hpp \

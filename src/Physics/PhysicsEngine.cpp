@@ -1,7 +1,7 @@
 #include "PhysicsEngine.h"
 
 #include "../Game/GameObjects/IGameObject.h"
-#include "../Game/Level.h"
+#include "../Game/GameStates/Level.h"
 
 namespace Physics
 {
@@ -28,14 +28,20 @@ namespace Physics
                // align position to multiple of 4 pixels
                if(currentDynamicObject -> getCurrentDirection().x != 0.0f) // right and left
                {
-                   currentDynamicObject -> getCurrentPosition() = glm::vec2(currentDynamicObject -> getCurrentPosition().x, static_cast<unsigned int>(currentDynamicObject -> getCurrentPosition().y / 4.0f + 0.5f) * 4.0f);
+                   currentDynamicObject -> getCurrentPosition() = glm::vec2(currentDynamicObject -> getCurrentPosition().x,
+                                                                            static_cast<unsigned int>(currentDynamicObject -> getCurrentPosition().y / 4.0f + 0.5f) * 4.0f);
                }
                else if(currentDynamicObject -> getCurrentDirection().y != 0.0f) // top and bottom
                {
-                   currentDynamicObject -> getCurrentPosition() = glm::vec2(static_cast<unsigned int>(currentDynamicObject -> getCurrentPosition().x / 4.0f + 0.5f) * 4.0f, currentDynamicObject ->  getCurrentPosition().y);
+                   currentDynamicObject -> getCurrentPosition() = glm::vec2(static_cast<unsigned int>(currentDynamicObject -> getCurrentPosition().x / 4.0f + 0.5f) * 4.0f,
+                                                                            currentDynamicObject ->  getCurrentPosition().y);
                };
 
-               const auto newPosition = currentDynamicObject -> getCurrentPosition() + currentDynamicObject -> getCurrentDirection() * static_cast<float>(currentDynamicObject -> getCurrentVelocity() * delta);
+               const auto newPosition = currentDynamicObject -> getCurrentPosition()
+                                        + currentDynamicObject -> getCurrentDirection()
+                                        * static_cast<float>(currentDynamicObject -> getCurrentVelocity()
+                                                             * delta);
+
                std::vector<std::shared_ptr<IGameObject>> objectToCheck = m_pCurrentLevel -> getObjectsInArea(newPosition, newPosition + currentDynamicObject -> getSize());
 
                const auto& colliders = currentDynamicObject -> getColliders();
@@ -60,7 +66,11 @@ namespace Physics
                    {
                        for(const auto& currentObjectCollider : currentObjectToCheck -> getColliders())
                        {
-                           if(currentObjectCollider.isActive && hasInterseciton(currentDynamicObjectCollider, newPosition, currentObjectCollider, currentObjectToCheck -> getCurrentPosition()))
+                           if(currentObjectCollider.isActive && hasInterseciton(currentDynamicObjectCollider
+                                                                                , newPosition
+                                                                                , currentObjectCollider
+                                                                                , currentObjectToCheck -> getCurrentPosition())
+                             )
                            {
                                hasCollision = true;
                                if(currentObjectCollider.onCollisionCallback)
@@ -86,11 +96,13 @@ namespace Physics
                     // align position to multiple of 4 pixels
                     if(currentDynamicObject -> getCurrentDirection().x != 0.0f) // right and left
                     {
-                       currentDynamicObject -> getCurrentPosition() = glm::vec2(currentDynamicObject -> getCurrentPosition().x, static_cast<unsigned int>(currentDynamicObject -> getCurrentPosition().y / 4.0f + 0.5f) * 4.0f);
+                       currentDynamicObject -> getCurrentPosition() = glm::vec2(currentDynamicObject -> getCurrentPosition().x,
+                                                                                static_cast<unsigned int>(currentDynamicObject -> getCurrentPosition().y / 4.0f + 0.5f) * 4.0f);
                     }
                     else if(currentDynamicObject -> getCurrentDirection().y != 0.0f) // top and bottom
                     {
-                       currentDynamicObject -> getCurrentPosition() = glm::vec2(static_cast<unsigned int>(currentDynamicObject -> getCurrentPosition().x / 4.0f + 0.5f) * 4.0f, currentDynamicObject ->  getCurrentPosition().y);
+                       currentDynamicObject -> getCurrentPosition() = glm::vec2(static_cast<unsigned int>(currentDynamicObject -> getCurrentPosition().x / 4.0f + 0.5f) * 4.0f,
+                                                                                currentDynamicObject ->  getCurrentPosition().y);
                     };
                     currentDynamicObject -> onCollision();
                };

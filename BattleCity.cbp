@@ -388,16 +388,25 @@
 		<Unit filename="N:/CPP_prj/SimpleCoding/BattleCity/src/Game/GameObjects/Water.h">
 			<Option target="BattleCity"/>
 		</Unit>
-		<Unit filename="N:/CPP_prj/SimpleCoding/BattleCity/src/Game/Level.cpp">
+		<Unit filename="N:/CPP_prj/SimpleCoding/BattleCity/src/Game/GameStates/IGameState.h">
 			<Option target="BattleCity"/>
 		</Unit>
-		<Unit filename="N:/CPP_prj/SimpleCoding/BattleCity/src/Game/Level.h">
+		<Unit filename="N:/CPP_prj/SimpleCoding/BattleCity/src/Game/GameStates/Level.cpp">
 			<Option target="BattleCity"/>
 		</Unit>
-		<Unit filename="N:/CPP_prj/SimpleCoding/BattleCity/src/PhysicsEngine/PhysicsEngine.cpp">
+		<Unit filename="N:/CPP_prj/SimpleCoding/BattleCity/src/Game/GameStates/Level.h">
 			<Option target="BattleCity"/>
 		</Unit>
-		<Unit filename="N:/CPP_prj/SimpleCoding/BattleCity/src/PhysicsEngine/PhysicsEngine.h">
+		<Unit filename="N:/CPP_prj/SimpleCoding/BattleCity/src/Game/GameStates/StartScreen.cpp">
+			<Option target="BattleCity"/>
+		</Unit>
+		<Unit filename="N:/CPP_prj/SimpleCoding/BattleCity/src/Game/GameStates/StartScreen.h">
+			<Option target="BattleCity"/>
+		</Unit>
+		<Unit filename="N:/CPP_prj/SimpleCoding/BattleCity/src/Physics/PhysicsEngine.cpp">
+			<Option target="BattleCity"/>
+		</Unit>
+		<Unit filename="N:/CPP_prj/SimpleCoding/BattleCity/src/Physics/PhysicsEngine.h">
 			<Option target="BattleCity"/>
 		</Unit>
 		<Unit filename="N:/CPP_prj/SimpleCoding/BattleCity/src/Renderer/IndexBuffer.cpp">

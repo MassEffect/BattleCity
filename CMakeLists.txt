@@ -31,8 +31,12 @@ add_executable(${PROJECT_NAME}
 				src/Resources/stb_image.h
 				src/Game/Game.cpp
 				src/Game/Game.h
-				src/Game/Level.cpp
-				src/Game/Level.h
+				
+				src/Game/GameStates/IGameState.h
+				src/Game/GameStates/StartScreen.cpp
+				src/Game/GameStates/StartScreen.h
+				src/Game/GameStates/Level.cpp
+				src/Game/GameStates/Level.h
 				
 				src/Game/GameObjects/Tank.h
 				src/Game/GameObjects/Tank.cpp
@@ -58,8 +62,8 @@ add_executable(${PROJECT_NAME}
 				src/System/Timer.cpp
 				src/System/Timer.h
 				
-				src/PhysicsEngine/PhysicsEngine.h
-				src/PhysicsEngine/PhysicsEngine.cpp
+				src/Physics/PhysicsEngine.h
+				src/Physics/PhysicsEngine.cpp
   				)
 
 target_compile_features(${PROJECT_NAME} PUBLIC cxx_std_17)

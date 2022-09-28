@@ -431,53 +431,77 @@ src/Game/GameObjects/Water.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\BattleCity.dir\build.make CMakeFiles/BattleCity.dir/src/Game/GameObjects/Water.cpp.s
 .PHONY : src/Game/GameObjects/Water.cpp.s
 
-src/Game/Level.obj: src/Game/Level.cpp.obj
-.PHONY : src/Game/Level.obj
+src/Game/GameStates/Level.obj: src/Game/GameStates/Level.cpp.obj
+.PHONY : src/Game/GameStates/Level.obj
 
 # target to build an object file
-src/Game/Level.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\BattleCity.dir\build.make CMakeFiles/BattleCity.dir/src/Game/Level.cpp.obj
-.PHONY : src/Game/Level.cpp.obj
+src/Game/GameStates/Level.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BattleCity.dir\build.make CMakeFiles/BattleCity.dir/src/Game/GameStates/Level.cpp.obj
+.PHONY : src/Game/GameStates/Level.cpp.obj
 
-src/Game/Level.i: src/Game/Level.cpp.i
-.PHONY : src/Game/Level.i
+src/Game/GameStates/Level.i: src/Game/GameStates/Level.cpp.i
+.PHONY : src/Game/GameStates/Level.i
 
 # target to preprocess a source file
-src/Game/Level.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\BattleCity.dir\build.make CMakeFiles/BattleCity.dir/src/Game/Level.cpp.i
-.PHONY : src/Game/Level.cpp.i
+src/Game/GameStates/Level.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BattleCity.dir\build.make CMakeFiles/BattleCity.dir/src/Game/GameStates/Level.cpp.i
+.PHONY : src/Game/GameStates/Level.cpp.i
 
-src/Game/Level.s: src/Game/Level.cpp.s
-.PHONY : src/Game/Level.s
+src/Game/GameStates/Level.s: src/Game/GameStates/Level.cpp.s
+.PHONY : src/Game/GameStates/Level.s
 
 # target to generate assembly for a file
-src/Game/Level.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\BattleCity.dir\build.make CMakeFiles/BattleCity.dir/src/Game/Level.cpp.s
-.PHONY : src/Game/Level.cpp.s
+src/Game/GameStates/Level.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BattleCity.dir\build.make CMakeFiles/BattleCity.dir/src/Game/GameStates/Level.cpp.s
+.PHONY : src/Game/GameStates/Level.cpp.s
 
-src/PhysicsEngine/PhysicsEngine.obj: src/PhysicsEngine/PhysicsEngine.cpp.obj
-.PHONY : src/PhysicsEngine/PhysicsEngine.obj
+src/Game/GameStates/StartScreen.obj: src/Game/GameStates/StartScreen.cpp.obj
+.PHONY : src/Game/GameStates/StartScreen.obj
 
 # target to build an object file
-src/PhysicsEngine/PhysicsEngine.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\BattleCity.dir\build.make CMakeFiles/BattleCity.dir/src/PhysicsEngine/PhysicsEngine.cpp.obj
-.PHONY : src/PhysicsEngine/PhysicsEngine.cpp.obj
+src/Game/GameStates/StartScreen.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BattleCity.dir\build.make CMakeFiles/BattleCity.dir/src/Game/GameStates/StartScreen.cpp.obj
+.PHONY : src/Game/GameStates/StartScreen.cpp.obj
 
-src/PhysicsEngine/PhysicsEngine.i: src/PhysicsEngine/PhysicsEngine.cpp.i
-.PHONY : src/PhysicsEngine/PhysicsEngine.i
+src/Game/GameStates/StartScreen.i: src/Game/GameStates/StartScreen.cpp.i
+.PHONY : src/Game/GameStates/StartScreen.i
 
 # target to preprocess a source file
-src/PhysicsEngine/PhysicsEngine.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\BattleCity.dir\build.make CMakeFiles/BattleCity.dir/src/PhysicsEngine/PhysicsEngine.cpp.i
-.PHONY : src/PhysicsEngine/PhysicsEngine.cpp.i
+src/Game/GameStates/StartScreen.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BattleCity.dir\build.make CMakeFiles/BattleCity.dir/src/Game/GameStates/StartScreen.cpp.i
+.PHONY : src/Game/GameStates/StartScreen.cpp.i
 
-src/PhysicsEngine/PhysicsEngine.s: src/PhysicsEngine/PhysicsEngine.cpp.s
-.PHONY : src/PhysicsEngine/PhysicsEngine.s
+src/Game/GameStates/StartScreen.s: src/Game/GameStates/StartScreen.cpp.s
+.PHONY : src/Game/GameStates/StartScreen.s
 
 # target to generate assembly for a file
-src/PhysicsEngine/PhysicsEngine.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\BattleCity.dir\build.make CMakeFiles/BattleCity.dir/src/PhysicsEngine/PhysicsEngine.cpp.s
-.PHONY : src/PhysicsEngine/PhysicsEngine.cpp.s
+src/Game/GameStates/StartScreen.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BattleCity.dir\build.make CMakeFiles/BattleCity.dir/src/Game/GameStates/StartScreen.cpp.s
+.PHONY : src/Game/GameStates/StartScreen.cpp.s
+
+src/Physics/PhysicsEngine.obj: src/Physics/PhysicsEngine.cpp.obj
+.PHONY : src/Physics/PhysicsEngine.obj
+
+# target to build an object file
+src/Physics/PhysicsEngine.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BattleCity.dir\build.make CMakeFiles/BattleCity.dir/src/Physics/PhysicsEngine.cpp.obj
+.PHONY : src/Physics/PhysicsEngine.cpp.obj
+
+src/Physics/PhysicsEngine.i: src/Physics/PhysicsEngine.cpp.i
+.PHONY : src/Physics/PhysicsEngine.i
+
+# target to preprocess a source file
+src/Physics/PhysicsEngine.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BattleCity.dir\build.make CMakeFiles/BattleCity.dir/src/Physics/PhysicsEngine.cpp.i
+.PHONY : src/Physics/PhysicsEngine.cpp.i
+
+src/Physics/PhysicsEngine.s: src/Physics/PhysicsEngine.cpp.s
+.PHONY : src/Physics/PhysicsEngine.s
+
+# target to generate assembly for a file
+src/Physics/PhysicsEngine.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BattleCity.dir\build.make CMakeFiles/BattleCity.dir/src/Physics/PhysicsEngine.cpp.s
+.PHONY : src/Physics/PhysicsEngine.cpp.s
 
 src/Renderer/IndexBuffer.obj: src/Renderer/IndexBuffer.cpp.obj
 .PHONY : src/Renderer/IndexBuffer.obj
@@ -812,12 +836,15 @@ help:
 	@echo ... src/Game/GameObjects/Water.obj
 	@echo ... src/Game/GameObjects/Water.i
 	@echo ... src/Game/GameObjects/Water.s
-	@echo ... src/Game/Level.obj
-	@echo ... src/Game/Level.i
-	@echo ... src/Game/Level.s
-	@echo ... src/PhysicsEngine/PhysicsEngine.obj
-	@echo ... src/PhysicsEngine/PhysicsEngine.i
-	@echo ... src/PhysicsEngine/PhysicsEngine.s
+	@echo ... src/Game/GameStates/Level.obj
+	@echo ... src/Game/GameStates/Level.i
+	@echo ... src/Game/GameStates/Level.s
+	@echo ... src/Game/GameStates/StartScreen.obj
+	@echo ... src/Game/GameStates/StartScreen.i
+	@echo ... src/Game/GameStates/StartScreen.s
+	@echo ... src/Physics/PhysicsEngine.obj
+	@echo ... src/Physics/PhysicsEngine.i
+	@echo ... src/Physics/PhysicsEngine.s
 	@echo ... src/Renderer/IndexBuffer.obj
 	@echo ... src/Renderer/IndexBuffer.i
 	@echo ... src/Renderer/IndexBuffer.s

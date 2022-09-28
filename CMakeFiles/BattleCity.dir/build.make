@@ -248,26 +248,41 @@ CMakeFiles/BattleCity.dir/src/Game/Game.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/BattleCity.dir/src/Game/Game.cpp.s"
 	C:\PROGRA~1\CODEBL~1\MinGW\bin\C__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S N:\CPP_prj\SimpleCoding\BattleCity\src\Game\Game.cpp -o CMakeFiles\BattleCity.dir\src\Game\Game.cpp.s
 
-CMakeFiles/BattleCity.dir/src/Game/Level.cpp.obj: CMakeFiles/BattleCity.dir/flags.make
-CMakeFiles/BattleCity.dir/src/Game/Level.cpp.obj: CMakeFiles/BattleCity.dir/includes_CXX.rsp
-CMakeFiles/BattleCity.dir/src/Game/Level.cpp.obj: src/Game/Level.cpp
-CMakeFiles/BattleCity.dir/src/Game/Level.cpp.obj: CMakeFiles/BattleCity.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=N:\CPP_prj\SimpleCoding\BattleCity\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/BattleCity.dir/src/Game/Level.cpp.obj"
-	C:\PROGRA~1\CODEBL~1\MinGW\bin\C__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/BattleCity.dir/src/Game/Level.cpp.obj -MF CMakeFiles\BattleCity.dir\src\Game\Level.cpp.obj.d -o CMakeFiles\BattleCity.dir\src\Game\Level.cpp.obj -c N:\CPP_prj\SimpleCoding\BattleCity\src\Game\Level.cpp
+CMakeFiles/BattleCity.dir/src/Game/GameStates/StartScreen.cpp.obj: CMakeFiles/BattleCity.dir/flags.make
+CMakeFiles/BattleCity.dir/src/Game/GameStates/StartScreen.cpp.obj: CMakeFiles/BattleCity.dir/includes_CXX.rsp
+CMakeFiles/BattleCity.dir/src/Game/GameStates/StartScreen.cpp.obj: src/Game/GameStates/StartScreen.cpp
+CMakeFiles/BattleCity.dir/src/Game/GameStates/StartScreen.cpp.obj: CMakeFiles/BattleCity.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=N:\CPP_prj\SimpleCoding\BattleCity\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/BattleCity.dir/src/Game/GameStates/StartScreen.cpp.obj"
+	C:\PROGRA~1\CODEBL~1\MinGW\bin\C__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/BattleCity.dir/src/Game/GameStates/StartScreen.cpp.obj -MF CMakeFiles\BattleCity.dir\src\Game\GameStates\StartScreen.cpp.obj.d -o CMakeFiles\BattleCity.dir\src\Game\GameStates\StartScreen.cpp.obj -c N:\CPP_prj\SimpleCoding\BattleCity\src\Game\GameStates\StartScreen.cpp
 
-CMakeFiles/BattleCity.dir/src/Game/Level.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/BattleCity.dir/src/Game/Level.cpp.i"
-	C:\PROGRA~1\CODEBL~1\MinGW\bin\C__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E N:\CPP_prj\SimpleCoding\BattleCity\src\Game\Level.cpp > CMakeFiles\BattleCity.dir\src\Game\Level.cpp.i
+CMakeFiles/BattleCity.dir/src/Game/GameStates/StartScreen.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/BattleCity.dir/src/Game/GameStates/StartScreen.cpp.i"
+	C:\PROGRA~1\CODEBL~1\MinGW\bin\C__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E N:\CPP_prj\SimpleCoding\BattleCity\src\Game\GameStates\StartScreen.cpp > CMakeFiles\BattleCity.dir\src\Game\GameStates\StartScreen.cpp.i
 
-CMakeFiles/BattleCity.dir/src/Game/Level.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/BattleCity.dir/src/Game/Level.cpp.s"
-	C:\PROGRA~1\CODEBL~1\MinGW\bin\C__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S N:\CPP_prj\SimpleCoding\BattleCity\src\Game\Level.cpp -o CMakeFiles\BattleCity.dir\src\Game\Level.cpp.s
+CMakeFiles/BattleCity.dir/src/Game/GameStates/StartScreen.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/BattleCity.dir/src/Game/GameStates/StartScreen.cpp.s"
+	C:\PROGRA~1\CODEBL~1\MinGW\bin\C__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S N:\CPP_prj\SimpleCoding\BattleCity\src\Game\GameStates\StartScreen.cpp -o CMakeFiles\BattleCity.dir\src\Game\GameStates\StartScreen.cpp.s
+
+CMakeFiles/BattleCity.dir/src/Game/GameStates/Level.cpp.obj: CMakeFiles/BattleCity.dir/flags.make
+CMakeFiles/BattleCity.dir/src/Game/GameStates/Level.cpp.obj: CMakeFiles/BattleCity.dir/includes_CXX.rsp
+CMakeFiles/BattleCity.dir/src/Game/GameStates/Level.cpp.obj: src/Game/GameStates/Level.cpp
+CMakeFiles/BattleCity.dir/src/Game/GameStates/Level.cpp.obj: CMakeFiles/BattleCity.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=N:\CPP_prj\SimpleCoding\BattleCity\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/BattleCity.dir/src/Game/GameStates/Level.cpp.obj"
+	C:\PROGRA~1\CODEBL~1\MinGW\bin\C__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/BattleCity.dir/src/Game/GameStates/Level.cpp.obj -MF CMakeFiles\BattleCity.dir\src\Game\GameStates\Level.cpp.obj.d -o CMakeFiles\BattleCity.dir\src\Game\GameStates\Level.cpp.obj -c N:\CPP_prj\SimpleCoding\BattleCity\src\Game\GameStates\Level.cpp
+
+CMakeFiles/BattleCity.dir/src/Game/GameStates/Level.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/BattleCity.dir/src/Game/GameStates/Level.cpp.i"
+	C:\PROGRA~1\CODEBL~1\MinGW\bin\C__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E N:\CPP_prj\SimpleCoding\BattleCity\src\Game\GameStates\Level.cpp > CMakeFiles\BattleCity.dir\src\Game\GameStates\Level.cpp.i
+
+CMakeFiles/BattleCity.dir/src/Game/GameStates/Level.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/BattleCity.dir/src/Game/GameStates/Level.cpp.s"
+	C:\PROGRA~1\CODEBL~1\MinGW\bin\C__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S N:\CPP_prj\SimpleCoding\BattleCity\src\Game\GameStates\Level.cpp -o CMakeFiles\BattleCity.dir\src\Game\GameStates\Level.cpp.s
 
 CMakeFiles/BattleCity.dir/src/Game/GameObjects/Tank.cpp.obj: CMakeFiles/BattleCity.dir/flags.make
 CMakeFiles/BattleCity.dir/src/Game/GameObjects/Tank.cpp.obj: CMakeFiles/BattleCity.dir/includes_CXX.rsp
 CMakeFiles/BattleCity.dir/src/Game/GameObjects/Tank.cpp.obj: src/Game/GameObjects/Tank.cpp
 CMakeFiles/BattleCity.dir/src/Game/GameObjects/Tank.cpp.obj: CMakeFiles/BattleCity.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=N:\CPP_prj\SimpleCoding\BattleCity\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/BattleCity.dir/src/Game/GameObjects/Tank.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=N:\CPP_prj\SimpleCoding\BattleCity\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/BattleCity.dir/src/Game/GameObjects/Tank.cpp.obj"
 	C:\PROGRA~1\CODEBL~1\MinGW\bin\C__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/BattleCity.dir/src/Game/GameObjects/Tank.cpp.obj -MF CMakeFiles\BattleCity.dir\src\Game\GameObjects\Tank.cpp.obj.d -o CMakeFiles\BattleCity.dir\src\Game\GameObjects\Tank.cpp.obj -c N:\CPP_prj\SimpleCoding\BattleCity\src\Game\GameObjects\Tank.cpp
 
 CMakeFiles/BattleCity.dir/src/Game/GameObjects/Tank.cpp.i: cmake_force
@@ -282,7 +297,7 @@ CMakeFiles/BattleCity.dir/src/Game/GameObjects/Bullet.cpp.obj: CMakeFiles/Battle
 CMakeFiles/BattleCity.dir/src/Game/GameObjects/Bullet.cpp.obj: CMakeFiles/BattleCity.dir/includes_CXX.rsp
 CMakeFiles/BattleCity.dir/src/Game/GameObjects/Bullet.cpp.obj: src/Game/GameObjects/Bullet.cpp
 CMakeFiles/BattleCity.dir/src/Game/GameObjects/Bullet.cpp.obj: CMakeFiles/BattleCity.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=N:\CPP_prj\SimpleCoding\BattleCity\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/BattleCity.dir/src/Game/GameObjects/Bullet.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=N:\CPP_prj\SimpleCoding\BattleCity\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/BattleCity.dir/src/Game/GameObjects/Bullet.cpp.obj"
 	C:\PROGRA~1\CODEBL~1\MinGW\bin\C__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/BattleCity.dir/src/Game/GameObjects/Bullet.cpp.obj -MF CMakeFiles\BattleCity.dir\src\Game\GameObjects\Bullet.cpp.obj.d -o CMakeFiles\BattleCity.dir\src\Game\GameObjects\Bullet.cpp.obj -c N:\CPP_prj\SimpleCoding\BattleCity\src\Game\GameObjects\Bullet.cpp
 
 CMakeFiles/BattleCity.dir/src/Game/GameObjects/Bullet.cpp.i: cmake_force
@@ -297,7 +312,7 @@ CMakeFiles/BattleCity.dir/src/Game/GameObjects/IGameObject.cpp.obj: CMakeFiles/B
 CMakeFiles/BattleCity.dir/src/Game/GameObjects/IGameObject.cpp.obj: CMakeFiles/BattleCity.dir/includes_CXX.rsp
 CMakeFiles/BattleCity.dir/src/Game/GameObjects/IGameObject.cpp.obj: src/Game/GameObjects/IGameObject.cpp
 CMakeFiles/BattleCity.dir/src/Game/GameObjects/IGameObject.cpp.obj: CMakeFiles/BattleCity.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=N:\CPP_prj\SimpleCoding\BattleCity\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/BattleCity.dir/src/Game/GameObjects/IGameObject.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=N:\CPP_prj\SimpleCoding\BattleCity\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/BattleCity.dir/src/Game/GameObjects/IGameObject.cpp.obj"
 	C:\PROGRA~1\CODEBL~1\MinGW\bin\C__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/BattleCity.dir/src/Game/GameObjects/IGameObject.cpp.obj -MF CMakeFiles\BattleCity.dir\src\Game\GameObjects\IGameObject.cpp.obj.d -o CMakeFiles\BattleCity.dir\src\Game\GameObjects\IGameObject.cpp.obj -c N:\CPP_prj\SimpleCoding\BattleCity\src\Game\GameObjects\IGameObject.cpp
 
 CMakeFiles/BattleCity.dir/src/Game/GameObjects/IGameObject.cpp.i: cmake_force
@@ -312,7 +327,7 @@ CMakeFiles/BattleCity.dir/src/Game/GameObjects/BrickWall.cpp.obj: CMakeFiles/Bat
 CMakeFiles/BattleCity.dir/src/Game/GameObjects/BrickWall.cpp.obj: CMakeFiles/BattleCity.dir/includes_CXX.rsp
 CMakeFiles/BattleCity.dir/src/Game/GameObjects/BrickWall.cpp.obj: src/Game/GameObjects/BrickWall.cpp
 CMakeFiles/BattleCity.dir/src/Game/GameObjects/BrickWall.cpp.obj: CMakeFiles/BattleCity.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=N:\CPP_prj\SimpleCoding\BattleCity\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/BattleCity.dir/src/Game/GameObjects/BrickWall.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=N:\CPP_prj\SimpleCoding\BattleCity\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/BattleCity.dir/src/Game/GameObjects/BrickWall.cpp.obj"
 	C:\PROGRA~1\CODEBL~1\MinGW\bin\C__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/BattleCity.dir/src/Game/GameObjects/BrickWall.cpp.obj -MF CMakeFiles\BattleCity.dir\src\Game\GameObjects\BrickWall.cpp.obj.d -o CMakeFiles\BattleCity.dir\src\Game\GameObjects\BrickWall.cpp.obj -c N:\CPP_prj\SimpleCoding\BattleCity\src\Game\GameObjects\BrickWall.cpp
 
 CMakeFiles/BattleCity.dir/src/Game/GameObjects/BrickWall.cpp.i: cmake_force
@@ -327,7 +342,7 @@ CMakeFiles/BattleCity.dir/src/Game/GameObjects/BetonWall.cpp.obj: CMakeFiles/Bat
 CMakeFiles/BattleCity.dir/src/Game/GameObjects/BetonWall.cpp.obj: CMakeFiles/BattleCity.dir/includes_CXX.rsp
 CMakeFiles/BattleCity.dir/src/Game/GameObjects/BetonWall.cpp.obj: src/Game/GameObjects/BetonWall.cpp
 CMakeFiles/BattleCity.dir/src/Game/GameObjects/BetonWall.cpp.obj: CMakeFiles/BattleCity.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=N:\CPP_prj\SimpleCoding\BattleCity\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/BattleCity.dir/src/Game/GameObjects/BetonWall.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=N:\CPP_prj\SimpleCoding\BattleCity\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/BattleCity.dir/src/Game/GameObjects/BetonWall.cpp.obj"
 	C:\PROGRA~1\CODEBL~1\MinGW\bin\C__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/BattleCity.dir/src/Game/GameObjects/BetonWall.cpp.obj -MF CMakeFiles\BattleCity.dir\src\Game\GameObjects\BetonWall.cpp.obj.d -o CMakeFiles\BattleCity.dir\src\Game\GameObjects\BetonWall.cpp.obj -c N:\CPP_prj\SimpleCoding\BattleCity\src\Game\GameObjects\BetonWall.cpp
 
 CMakeFiles/BattleCity.dir/src/Game/GameObjects/BetonWall.cpp.i: cmake_force
@@ -342,7 +357,7 @@ CMakeFiles/BattleCity.dir/src/Game/GameObjects/Trees.cpp.obj: CMakeFiles/BattleC
 CMakeFiles/BattleCity.dir/src/Game/GameObjects/Trees.cpp.obj: CMakeFiles/BattleCity.dir/includes_CXX.rsp
 CMakeFiles/BattleCity.dir/src/Game/GameObjects/Trees.cpp.obj: src/Game/GameObjects/Trees.cpp
 CMakeFiles/BattleCity.dir/src/Game/GameObjects/Trees.cpp.obj: CMakeFiles/BattleCity.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=N:\CPP_prj\SimpleCoding\BattleCity\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/BattleCity.dir/src/Game/GameObjects/Trees.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=N:\CPP_prj\SimpleCoding\BattleCity\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/BattleCity.dir/src/Game/GameObjects/Trees.cpp.obj"
 	C:\PROGRA~1\CODEBL~1\MinGW\bin\C__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/BattleCity.dir/src/Game/GameObjects/Trees.cpp.obj -MF CMakeFiles\BattleCity.dir\src\Game\GameObjects\Trees.cpp.obj.d -o CMakeFiles\BattleCity.dir\src\Game\GameObjects\Trees.cpp.obj -c N:\CPP_prj\SimpleCoding\BattleCity\src\Game\GameObjects\Trees.cpp
 
 CMakeFiles/BattleCity.dir/src/Game/GameObjects/Trees.cpp.i: cmake_force
@@ -357,7 +372,7 @@ CMakeFiles/BattleCity.dir/src/Game/GameObjects/Border.cpp.obj: CMakeFiles/Battle
 CMakeFiles/BattleCity.dir/src/Game/GameObjects/Border.cpp.obj: CMakeFiles/BattleCity.dir/includes_CXX.rsp
 CMakeFiles/BattleCity.dir/src/Game/GameObjects/Border.cpp.obj: src/Game/GameObjects/Border.cpp
 CMakeFiles/BattleCity.dir/src/Game/GameObjects/Border.cpp.obj: CMakeFiles/BattleCity.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=N:\CPP_prj\SimpleCoding\BattleCity\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/BattleCity.dir/src/Game/GameObjects/Border.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=N:\CPP_prj\SimpleCoding\BattleCity\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/BattleCity.dir/src/Game/GameObjects/Border.cpp.obj"
 	C:\PROGRA~1\CODEBL~1\MinGW\bin\C__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/BattleCity.dir/src/Game/GameObjects/Border.cpp.obj -MF CMakeFiles\BattleCity.dir\src\Game\GameObjects\Border.cpp.obj.d -o CMakeFiles\BattleCity.dir\src\Game\GameObjects\Border.cpp.obj -c N:\CPP_prj\SimpleCoding\BattleCity\src\Game\GameObjects\Border.cpp
 
 CMakeFiles/BattleCity.dir/src/Game/GameObjects/Border.cpp.i: cmake_force
@@ -372,7 +387,7 @@ CMakeFiles/BattleCity.dir/src/Game/GameObjects/Ice.cpp.obj: CMakeFiles/BattleCit
 CMakeFiles/BattleCity.dir/src/Game/GameObjects/Ice.cpp.obj: CMakeFiles/BattleCity.dir/includes_CXX.rsp
 CMakeFiles/BattleCity.dir/src/Game/GameObjects/Ice.cpp.obj: src/Game/GameObjects/Ice.cpp
 CMakeFiles/BattleCity.dir/src/Game/GameObjects/Ice.cpp.obj: CMakeFiles/BattleCity.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=N:\CPP_prj\SimpleCoding\BattleCity\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/BattleCity.dir/src/Game/GameObjects/Ice.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=N:\CPP_prj\SimpleCoding\BattleCity\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/BattleCity.dir/src/Game/GameObjects/Ice.cpp.obj"
 	C:\PROGRA~1\CODEBL~1\MinGW\bin\C__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/BattleCity.dir/src/Game/GameObjects/Ice.cpp.obj -MF CMakeFiles\BattleCity.dir\src\Game\GameObjects\Ice.cpp.obj.d -o CMakeFiles\BattleCity.dir\src\Game\GameObjects\Ice.cpp.obj -c N:\CPP_prj\SimpleCoding\BattleCity\src\Game\GameObjects\Ice.cpp
 
 CMakeFiles/BattleCity.dir/src/Game/GameObjects/Ice.cpp.i: cmake_force
@@ -387,7 +402,7 @@ CMakeFiles/BattleCity.dir/src/Game/GameObjects/Water.cpp.obj: CMakeFiles/BattleC
 CMakeFiles/BattleCity.dir/src/Game/GameObjects/Water.cpp.obj: CMakeFiles/BattleCity.dir/includes_CXX.rsp
 CMakeFiles/BattleCity.dir/src/Game/GameObjects/Water.cpp.obj: src/Game/GameObjects/Water.cpp
 CMakeFiles/BattleCity.dir/src/Game/GameObjects/Water.cpp.obj: CMakeFiles/BattleCity.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=N:\CPP_prj\SimpleCoding\BattleCity\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/BattleCity.dir/src/Game/GameObjects/Water.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=N:\CPP_prj\SimpleCoding\BattleCity\CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/BattleCity.dir/src/Game/GameObjects/Water.cpp.obj"
 	C:\PROGRA~1\CODEBL~1\MinGW\bin\C__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/BattleCity.dir/src/Game/GameObjects/Water.cpp.obj -MF CMakeFiles\BattleCity.dir\src\Game\GameObjects\Water.cpp.obj.d -o CMakeFiles\BattleCity.dir\src\Game\GameObjects\Water.cpp.obj -c N:\CPP_prj\SimpleCoding\BattleCity\src\Game\GameObjects\Water.cpp
 
 CMakeFiles/BattleCity.dir/src/Game/GameObjects/Water.cpp.i: cmake_force
@@ -402,7 +417,7 @@ CMakeFiles/BattleCity.dir/src/Game/GameObjects/Eagle.cpp.obj: CMakeFiles/BattleC
 CMakeFiles/BattleCity.dir/src/Game/GameObjects/Eagle.cpp.obj: CMakeFiles/BattleCity.dir/includes_CXX.rsp
 CMakeFiles/BattleCity.dir/src/Game/GameObjects/Eagle.cpp.obj: src/Game/GameObjects/Eagle.cpp
 CMakeFiles/BattleCity.dir/src/Game/GameObjects/Eagle.cpp.obj: CMakeFiles/BattleCity.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=N:\CPP_prj\SimpleCoding\BattleCity\CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/BattleCity.dir/src/Game/GameObjects/Eagle.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=N:\CPP_prj\SimpleCoding\BattleCity\CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/BattleCity.dir/src/Game/GameObjects/Eagle.cpp.obj"
 	C:\PROGRA~1\CODEBL~1\MinGW\bin\C__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/BattleCity.dir/src/Game/GameObjects/Eagle.cpp.obj -MF CMakeFiles\BattleCity.dir\src\Game\GameObjects\Eagle.cpp.obj.d -o CMakeFiles\BattleCity.dir\src\Game\GameObjects\Eagle.cpp.obj -c N:\CPP_prj\SimpleCoding\BattleCity\src\Game\GameObjects\Eagle.cpp
 
 CMakeFiles/BattleCity.dir/src/Game/GameObjects/Eagle.cpp.i: cmake_force
@@ -417,7 +432,7 @@ CMakeFiles/BattleCity.dir/src/System/Timer.cpp.obj: CMakeFiles/BattleCity.dir/fl
 CMakeFiles/BattleCity.dir/src/System/Timer.cpp.obj: CMakeFiles/BattleCity.dir/includes_CXX.rsp
 CMakeFiles/BattleCity.dir/src/System/Timer.cpp.obj: src/System/Timer.cpp
 CMakeFiles/BattleCity.dir/src/System/Timer.cpp.obj: CMakeFiles/BattleCity.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=N:\CPP_prj\SimpleCoding\BattleCity\CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/BattleCity.dir/src/System/Timer.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=N:\CPP_prj\SimpleCoding\BattleCity\CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/BattleCity.dir/src/System/Timer.cpp.obj"
 	C:\PROGRA~1\CODEBL~1\MinGW\bin\C__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/BattleCity.dir/src/System/Timer.cpp.obj -MF CMakeFiles\BattleCity.dir\src\System\Timer.cpp.obj.d -o CMakeFiles\BattleCity.dir\src\System\Timer.cpp.obj -c N:\CPP_prj\SimpleCoding\BattleCity\src\System\Timer.cpp
 
 CMakeFiles/BattleCity.dir/src/System/Timer.cpp.i: cmake_force
@@ -428,20 +443,20 @@ CMakeFiles/BattleCity.dir/src/System/Timer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/BattleCity.dir/src/System/Timer.cpp.s"
 	C:\PROGRA~1\CODEBL~1\MinGW\bin\C__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S N:\CPP_prj\SimpleCoding\BattleCity\src\System\Timer.cpp -o CMakeFiles\BattleCity.dir\src\System\Timer.cpp.s
 
-CMakeFiles/BattleCity.dir/src/PhysicsEngine/PhysicsEngine.cpp.obj: CMakeFiles/BattleCity.dir/flags.make
-CMakeFiles/BattleCity.dir/src/PhysicsEngine/PhysicsEngine.cpp.obj: CMakeFiles/BattleCity.dir/includes_CXX.rsp
-CMakeFiles/BattleCity.dir/src/PhysicsEngine/PhysicsEngine.cpp.obj: src/PhysicsEngine/PhysicsEngine.cpp
-CMakeFiles/BattleCity.dir/src/PhysicsEngine/PhysicsEngine.cpp.obj: CMakeFiles/BattleCity.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=N:\CPP_prj\SimpleCoding\BattleCity\CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/BattleCity.dir/src/PhysicsEngine/PhysicsEngine.cpp.obj"
-	C:\PROGRA~1\CODEBL~1\MinGW\bin\C__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/BattleCity.dir/src/PhysicsEngine/PhysicsEngine.cpp.obj -MF CMakeFiles\BattleCity.dir\src\PhysicsEngine\PhysicsEngine.cpp.obj.d -o CMakeFiles\BattleCity.dir\src\PhysicsEngine\PhysicsEngine.cpp.obj -c N:\CPP_prj\SimpleCoding\BattleCity\src\PhysicsEngine\PhysicsEngine.cpp
+CMakeFiles/BattleCity.dir/src/Physics/PhysicsEngine.cpp.obj: CMakeFiles/BattleCity.dir/flags.make
+CMakeFiles/BattleCity.dir/src/Physics/PhysicsEngine.cpp.obj: CMakeFiles/BattleCity.dir/includes_CXX.rsp
+CMakeFiles/BattleCity.dir/src/Physics/PhysicsEngine.cpp.obj: src/Physics/PhysicsEngine.cpp
+CMakeFiles/BattleCity.dir/src/Physics/PhysicsEngine.cpp.obj: CMakeFiles/BattleCity.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=N:\CPP_prj\SimpleCoding\BattleCity\CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object CMakeFiles/BattleCity.dir/src/Physics/PhysicsEngine.cpp.obj"
+	C:\PROGRA~1\CODEBL~1\MinGW\bin\C__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/BattleCity.dir/src/Physics/PhysicsEngine.cpp.obj -MF CMakeFiles\BattleCity.dir\src\Physics\PhysicsEngine.cpp.obj.d -o CMakeFiles\BattleCity.dir\src\Physics\PhysicsEngine.cpp.obj -c N:\CPP_prj\SimpleCoding\BattleCity\src\Physics\PhysicsEngine.cpp
 
-CMakeFiles/BattleCity.dir/src/PhysicsEngine/PhysicsEngine.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/BattleCity.dir/src/PhysicsEngine/PhysicsEngine.cpp.i"
-	C:\PROGRA~1\CODEBL~1\MinGW\bin\C__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E N:\CPP_prj\SimpleCoding\BattleCity\src\PhysicsEngine\PhysicsEngine.cpp > CMakeFiles\BattleCity.dir\src\PhysicsEngine\PhysicsEngine.cpp.i
+CMakeFiles/BattleCity.dir/src/Physics/PhysicsEngine.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/BattleCity.dir/src/Physics/PhysicsEngine.cpp.i"
+	C:\PROGRA~1\CODEBL~1\MinGW\bin\C__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E N:\CPP_prj\SimpleCoding\BattleCity\src\Physics\PhysicsEngine.cpp > CMakeFiles\BattleCity.dir\src\Physics\PhysicsEngine.cpp.i
 
-CMakeFiles/BattleCity.dir/src/PhysicsEngine/PhysicsEngine.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/BattleCity.dir/src/PhysicsEngine/PhysicsEngine.cpp.s"
-	C:\PROGRA~1\CODEBL~1\MinGW\bin\C__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S N:\CPP_prj\SimpleCoding\BattleCity\src\PhysicsEngine\PhysicsEngine.cpp -o CMakeFiles\BattleCity.dir\src\PhysicsEngine\PhysicsEngine.cpp.s
+CMakeFiles/BattleCity.dir/src/Physics/PhysicsEngine.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/BattleCity.dir/src/Physics/PhysicsEngine.cpp.s"
+	C:\PROGRA~1\CODEBL~1\MinGW\bin\C__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S N:\CPP_prj\SimpleCoding\BattleCity\src\Physics\PhysicsEngine.cpp -o CMakeFiles\BattleCity.dir\src\Physics\PhysicsEngine.cpp.s
 
 # Object files for target BattleCity
 BattleCity_OBJECTS = \
@@ -457,7 +472,8 @@ BattleCity_OBJECTS = \
 "CMakeFiles/BattleCity.dir/src/Renderer/Renderer.cpp.obj" \
 "CMakeFiles/BattleCity.dir/src/Resources/ResourceManager.cpp.obj" \
 "CMakeFiles/BattleCity.dir/src/Game/Game.cpp.obj" \
-"CMakeFiles/BattleCity.dir/src/Game/Level.cpp.obj" \
+"CMakeFiles/BattleCity.dir/src/Game/GameStates/StartScreen.cpp.obj" \
+"CMakeFiles/BattleCity.dir/src/Game/GameStates/Level.cpp.obj" \
 "CMakeFiles/BattleCity.dir/src/Game/GameObjects/Tank.cpp.obj" \
 "CMakeFiles/BattleCity.dir/src/Game/GameObjects/Bullet.cpp.obj" \
 "CMakeFiles/BattleCity.dir/src/Game/GameObjects/IGameObject.cpp.obj" \
@@ -469,7 +485,7 @@ BattleCity_OBJECTS = \
 "CMakeFiles/BattleCity.dir/src/Game/GameObjects/Water.cpp.obj" \
 "CMakeFiles/BattleCity.dir/src/Game/GameObjects/Eagle.cpp.obj" \
 "CMakeFiles/BattleCity.dir/src/System/Timer.cpp.obj" \
-"CMakeFiles/BattleCity.dir/src/PhysicsEngine/PhysicsEngine.cpp.obj"
+"CMakeFiles/BattleCity.dir/src/Physics/PhysicsEngine.cpp.obj"
 
 # External object files for target BattleCity
 BattleCity_EXTERNAL_OBJECTS =
@@ -486,7 +502,8 @@ bin/BattleCity.exe: CMakeFiles/BattleCity.dir/src/Renderer/VertexBufferLayout.cp
 bin/BattleCity.exe: CMakeFiles/BattleCity.dir/src/Renderer/Renderer.cpp.obj
 bin/BattleCity.exe: CMakeFiles/BattleCity.dir/src/Resources/ResourceManager.cpp.obj
 bin/BattleCity.exe: CMakeFiles/BattleCity.dir/src/Game/Game.cpp.obj
-bin/BattleCity.exe: CMakeFiles/BattleCity.dir/src/Game/Level.cpp.obj
+bin/BattleCity.exe: CMakeFiles/BattleCity.dir/src/Game/GameStates/StartScreen.cpp.obj
+bin/BattleCity.exe: CMakeFiles/BattleCity.dir/src/Game/GameStates/Level.cpp.obj
 bin/BattleCity.exe: CMakeFiles/BattleCity.dir/src/Game/GameObjects/Tank.cpp.obj
 bin/BattleCity.exe: CMakeFiles/BattleCity.dir/src/Game/GameObjects/Bullet.cpp.obj
 bin/BattleCity.exe: CMakeFiles/BattleCity.dir/src/Game/GameObjects/IGameObject.cpp.obj
@@ -498,14 +515,14 @@ bin/BattleCity.exe: CMakeFiles/BattleCity.dir/src/Game/GameObjects/Ice.cpp.obj
 bin/BattleCity.exe: CMakeFiles/BattleCity.dir/src/Game/GameObjects/Water.cpp.obj
 bin/BattleCity.exe: CMakeFiles/BattleCity.dir/src/Game/GameObjects/Eagle.cpp.obj
 bin/BattleCity.exe: CMakeFiles/BattleCity.dir/src/System/Timer.cpp.obj
-bin/BattleCity.exe: CMakeFiles/BattleCity.dir/src/PhysicsEngine/PhysicsEngine.cpp.obj
+bin/BattleCity.exe: CMakeFiles/BattleCity.dir/src/Physics/PhysicsEngine.cpp.obj
 bin/BattleCity.exe: CMakeFiles/BattleCity.dir/build.make
 bin/BattleCity.exe: external/glfw/src/libglfw3.a
 bin/BattleCity.exe: external/glad/libglad.a
 bin/BattleCity.exe: CMakeFiles/BattleCity.dir/linklibs.rsp
 bin/BattleCity.exe: CMakeFiles/BattleCity.dir/objects1.rsp
 bin/BattleCity.exe: CMakeFiles/BattleCity.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=N:\CPP_prj\SimpleCoding\BattleCity\CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Linking CXX executable bin\BattleCity.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=N:\CPP_prj\SimpleCoding\BattleCity\CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Linking CXX executable bin\BattleCity.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\BattleCity.dir\link.txt --verbose=$(VERBOSE)
 	"C:\Program Files\CMake\bin\cmake.exe" -E copy_directory N:/CPP_prj/SimpleCoding/BattleCity/res N:/CPP_prj/SimpleCoding/BattleCity/bin/res
 
