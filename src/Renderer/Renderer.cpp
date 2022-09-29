@@ -8,7 +8,6 @@ namespace RenderEngine
         shader.use();
         vertexArray.bind();
         indexBuffer.bind();
-
         glDrawElements(GL_TRIANGLES, indexBuffer.getCount(), GL_UNSIGNED_INT, nullptr);
     };
 

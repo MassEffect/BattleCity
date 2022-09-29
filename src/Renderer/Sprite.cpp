@@ -5,7 +5,6 @@
 #include <glm/mat4x4.hpp>
 #include <glm/gtc/matrix_transform.hpp>
 
-
 namespace RenderEngine
 {
   Sprite::Sprite(std::shared_ptr<Texture2D> pTexture,

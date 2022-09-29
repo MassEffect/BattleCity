@@ -36,7 +36,7 @@ void glfwWindowSizeCallback(GLFWwindow* pWindow, int width, int height)
         viewPortBottomOffset = (g_windowSize.y - viewPortHeight) / 2;
     }
 
-    RenderEngine::Renderer::setViewport(viewPortWidth, viewPortHeight, viewPortLeftOffset, viewPortBottomOffset);
+    RenderEngine::Renderer::setViewport(viewPortLeftOffset, viewPortBottomOffset, viewPortWidth, viewPortHeight);
 }
 
 void glfwKeyCallback(GLFWwindow* pWindow, int key, int scancode, int action, int mode)
@@ -109,7 +109,7 @@ int main(int argc, char** argv)
 
             /* Render here */
             RenderEngine::Renderer::clear();
-            
+
             g_game->render();
 
             /* Swap front and back buffers */
