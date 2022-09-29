@@ -4,6 +4,7 @@ class IGameState {
 public:
     virtual void render() const = 0;
     virtual void update(const double delta) = 0;
+    virtual void processInput(std::array<bool, 349>& keys) {};
     virtual ~IGameState() = default;
 
     virtual unsigned int getStateWidth() const = 0;

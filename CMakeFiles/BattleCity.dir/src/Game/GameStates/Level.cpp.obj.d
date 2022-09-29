@@ -194,6 +194,9 @@ CMakeFiles/BattleCity.dir/src/Game/GameStates/Level.cpp.obj: \
  N:/CPP_prj/SimpleCoding/BattleCity/src/Renderer/VertexBufferLayout.h \
  N:/CPP_prj/SimpleCoding/BattleCity/src/Game/GameObjects/Eagle.h \
  N:/CPP_prj/SimpleCoding/BattleCity/src/Game/GameObjects/Border.h \
+ N:/CPP_prj/SimpleCoding/BattleCity/src/Game/GameObjects/Tank.h \
+ N:/CPP_prj/SimpleCoding/BattleCity/src/System/Timer.h \
+ N:/CPP_prj/SimpleCoding/BattleCity/external/glfw/include/GLFW/glfw3.h \
  C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/iostream \
  C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ostream \
  C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ios \

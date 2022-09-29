@@ -322,6 +322,7 @@ CMakeFiles/BattleCity.dir/src/Game/Game.cpp.obj: src/Game/Game.cpp \
   src/Game/GameStates/Level.h \
   src/Game/GameStates/IGameState.h \
   src/Game/GameStates/StartScreen.h \
+  src/Renderer/Renderer.h \
   external/glfw/include/GLFW/glfw3.h \
   external/glm/glm/gtc/matrix_transform.hpp \
   external/glm/glm/ext/matrix_projection.hpp \
@@ -2535,6 +2536,9 @@ CMakeFiles/BattleCity.dir/src/Game/GameStates/Level.cpp.obj: src/Game/GameStates
   src/Renderer/VertexBufferLayout.h \
   src/Game/GameObjects/Eagle.h \
   src/Game/GameObjects/Border.h \
+  src/Game/GameObjects/Tank.h \
+  src/System/Timer.h \
+  external/glfw/include/GLFW/glfw3.h \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/iostream \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ostream \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ios \

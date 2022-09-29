@@ -320,6 +320,7 @@ CMakeFiles/BattleCity.dir/src/Game/Game.cpp.obj: \
  N:\CPP_prj\SimpleCoding\BattleCity\src\Game\GameStates/Level.h \
  N:\CPP_prj\SimpleCoding\BattleCity\src\Game\GameStates/IGameState.h \
  N:\CPP_prj\SimpleCoding\BattleCity\src\Game\GameStates/StartScreen.h \
+ N:/CPP_prj/SimpleCoding/BattleCity/src/Renderer/Renderer.h \
  N:/CPP_prj/SimpleCoding/BattleCity/external/glfw/include/GLFW/glfw3.h \
  N:/CPP_prj/SimpleCoding/BattleCity/external/glm/glm/gtc/matrix_transform.hpp \
  N:/CPP_prj/SimpleCoding/BattleCity/external/glm/glm/ext/matrix_projection.hpp \

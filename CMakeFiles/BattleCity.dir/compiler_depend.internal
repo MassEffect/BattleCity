@@ -323,6 +323,7 @@ CMakeFiles/BattleCity.dir/src/Game/Game.cpp.obj
  N:/CPP_prj/SimpleCoding/BattleCity/src/Game/GameStates/Level.h
  N:/CPP_prj/SimpleCoding/BattleCity/src/Game/GameStates/IGameState.h
  N:/CPP_prj/SimpleCoding/BattleCity/src/Game/GameStates/StartScreen.h
+ N:/CPP_prj/SimpleCoding/BattleCity/src/Renderer/Renderer.h
  N:/CPP_prj/SimpleCoding/BattleCity/external/glfw/include/GLFW/glfw3.h
  N:/CPP_prj/SimpleCoding/BattleCity/external/glm/glm/gtc/matrix_transform.hpp
  N:/CPP_prj/SimpleCoding/BattleCity/external/glm/glm/ext/matrix_projection.hpp
@@ -2547,6 +2548,9 @@ CMakeFiles/BattleCity.dir/src/Game/GameStates/Level.cpp.obj
  N:/CPP_prj/SimpleCoding/BattleCity/src/Renderer/VertexBufferLayout.h
  N:/CPP_prj/SimpleCoding/BattleCity/src/Game/GameObjects/Eagle.h
  N:/CPP_prj/SimpleCoding/BattleCity/src/Game/GameObjects/Border.h
+ N:/CPP_prj/SimpleCoding/BattleCity/src/Game/GameObjects/Tank.h
+ N:/CPP_prj/SimpleCoding/BattleCity/src/System/Timer.h
+ N:/CPP_prj/SimpleCoding/BattleCity/external/glfw/include/GLFW/glfw3.h
  C:/Program Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/iostream
  C:/Program Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ostream
  C:/Program Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ios

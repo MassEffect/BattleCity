@@ -47,16 +47,16 @@ void Bullet::render()const
           switch(m_eOrientation)
           {
             case EOrientation::Top:
-            m_pSprite_explosion -> render(m_position - m_explosionOffset + glm::vec2(0, m_size.y / 2.0f), m_explosionSize, m_rotation, m_layer, m_spriteAnimator_explosion.getCurrentFrame());
+            m_pSprite_explosion -> render(m_position - m_explosionOffset + glm::vec2(0, m_size.y / 2.0f), m_explosionSize, m_rotation, m_layer + 0.1f, m_spriteAnimator_explosion.getCurrentFrame());
             break;
             case EOrientation::Bottom:
-            m_pSprite_explosion -> render(m_position - m_explosionOffset - glm::vec2(0, m_size.y / 2.0f), m_explosionSize, m_rotation, m_layer, m_spriteAnimator_explosion.getCurrentFrame());
+            m_pSprite_explosion -> render(m_position - m_explosionOffset - glm::vec2(0, m_size.y / 2.0f), m_explosionSize, m_rotation, m_layer + 0.1f, m_spriteAnimator_explosion.getCurrentFrame());
             break;
             case EOrientation::Left:
-            m_pSprite_explosion -> render(m_position - m_explosionOffset - glm::vec2(m_size.x / 2.0f, 0), m_explosionSize, m_rotation, m_layer, m_spriteAnimator_explosion.getCurrentFrame());
+            m_pSprite_explosion -> render(m_position - m_explosionOffset - glm::vec2(m_size.x / 2.0f, 0), m_explosionSize, m_rotation, m_layer + 0.1f, m_spriteAnimator_explosion.getCurrentFrame());
             break;
             case EOrientation::Right:
-            m_pSprite_explosion -> render(m_position - m_explosionOffset + glm::vec2(m_size.x / 2.0f, 0), m_explosionSize, m_rotation, m_layer, m_spriteAnimator_explosion.getCurrentFrame());
+            m_pSprite_explosion -> render(m_position - m_explosionOffset + glm::vec2(m_size.x / 2.0f, 0), m_explosionSize, m_rotation, m_layer + 0.1f, m_spriteAnimator_explosion.getCurrentFrame());
             break;
           };
        }
