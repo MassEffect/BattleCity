@@ -2742,6 +2742,14 @@ CMakeFiles/BattleCity.dir/src/Game/GameStates/StartScreen.cpp.obj: src/Game/Game
   external/glm/glm/ext/vector_uint2_sized.hpp \
   external/glm/glm/ext/scalar_uint_sized.hpp \
   src/Game/GameStates/IGameState.h \
+  src/Renderer/SpriteAnimator.h \
+  src/Renderer/Sprite.h \
+  external/glad/include/glad/glad.h \
+  external/glad/include/KHR/khrplatform.h \
+  src/Renderer/VertexBuffer.h \
+  src/Renderer/IndexBuffer.h \
+  src/Renderer/VertexArray.h \
+  src/Renderer/VertexBufferLayout.h \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/iostream \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ostream \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ios \
@@ -2772,13 +2780,7 @@ CMakeFiles/BattleCity.dir/src/Game/GameStates/StartScreen.cpp.obj: src/Game/Game
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/enable_special_members.h \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_map.h \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_multimap.h \
-  src/Renderer/Sprite.h \
-  external/glad/include/glad/glad.h \
-  external/glad/include/KHR/khrplatform.h \
-  src/Renderer/VertexBuffer.h \
-  src/Renderer/IndexBuffer.h \
-  src/Renderer/VertexArray.h \
-  src/Renderer/VertexBufferLayout.h
+  external/glfw/include/GLFW/glfw3.h
 
 CMakeFiles/BattleCity.dir/src/Physics/PhysicsEngine.cpp.obj: src/Physics/PhysicsEngine.cpp \
   src/Physics/PhysicsEngine.h \

@@ -162,6 +162,14 @@ CMakeFiles/BattleCity.dir/src/Game/GameStates/StartScreen.cpp.obj: \
  N:/CPP_prj/SimpleCoding/BattleCity/external/glm/glm/ext/vector_uint2_sized.hpp \
  N:/CPP_prj/SimpleCoding/BattleCity/external/glm/glm/ext/scalar_uint_sized.hpp \
  N:\CPP_prj\SimpleCoding\BattleCity\src\Game\GameStates\IGameState.h \
+ N:/CPP_prj/SimpleCoding/BattleCity/src/Renderer/SpriteAnimator.h \
+ N:/CPP_prj/SimpleCoding/BattleCity/src/Renderer/Sprite.h \
+ N:/CPP_prj/SimpleCoding/BattleCity/external/glad/include/glad/glad.h \
+ N:/CPP_prj/SimpleCoding/BattleCity/external/glad/include/KHR/khrplatform.h \
+ N:/CPP_prj/SimpleCoding/BattleCity/src/Renderer/VertexBuffer.h \
+ N:/CPP_prj/SimpleCoding/BattleCity/src/Renderer/IndexBuffer.h \
+ N:/CPP_prj/SimpleCoding/BattleCity/src/Renderer/VertexArray.h \
+ N:/CPP_prj/SimpleCoding/BattleCity/src/Renderer/VertexBufferLayout.h \
  C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/iostream \
  C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ostream \
  C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ios \
@@ -192,10 +200,5 @@ CMakeFiles/BattleCity.dir/src/Game/GameStates/StartScreen.cpp.obj: \
  C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/enable_special_members.h \
  C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_map.h \
  C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_multimap.h \
- N:/CPP_prj/SimpleCoding/BattleCity/src/Renderer/Sprite.h \
- N:/CPP_prj/SimpleCoding/BattleCity/external/glad/include/glad/glad.h \
- N:/CPP_prj/SimpleCoding/BattleCity/external/glad/include/KHR/khrplatform.h \
- N:/CPP_prj/SimpleCoding/BattleCity/src/Renderer/VertexBuffer.h \
- N:/CPP_prj/SimpleCoding/BattleCity/src/Renderer/IndexBuffer.h \
- N:/CPP_prj/SimpleCoding/BattleCity/src/Renderer/VertexArray.h \
- N:/CPP_prj/SimpleCoding/BattleCity/src/Renderer/VertexBufferLayout.h
+ N:/CPP_prj/SimpleCoding/BattleCity/external/glfw/include/GLFW/glfw3.h \
+ N:/CPP_prj/SimpleCoding/BattleCity/src/Game/Game.h
