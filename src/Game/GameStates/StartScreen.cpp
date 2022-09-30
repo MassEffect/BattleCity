@@ -60,7 +60,7 @@ StartScreen::StartScreen(const std::vector<std::string>& startScreenDescription,
                                                                )
                                                      )
                                        )
-                        , m_tankSprite(std::make_pair(ResourceManager::getSprite("tankSprite_right"),
+                        , m_tankSprite(std::make_pair(ResourceManager::getSprite("player1_yellow_tank_type1_sprite_right"),
                                                       glm::vec2(8 *  BLOCK_SIZE,
                                                                 m_menuSprite.second.y +
                                                                 6 * BLOCK_SIZE -

@@ -2780,7 +2780,8 @@ CMakeFiles/BattleCity.dir/src/Game/GameStates/StartScreen.cpp.obj: src/Game/Game
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/enable_special_members.h \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_map.h \
   C:/Program\ Files/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_multimap.h \
-  external/glfw/include/GLFW/glfw3.h
+  external/glfw/include/GLFW/glfw3.h \
+  src/Game/Game.h
 
 CMakeFiles/BattleCity.dir/src/Physics/PhysicsEngine.cpp.obj: src/Physics/PhysicsEngine.cpp \
   src/Physics/PhysicsEngine.h \

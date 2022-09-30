@@ -5,17 +5,18 @@
 #include "../../Physics/PhysicsEngine.h"
 #include <iostream>
 
-Tank::Tank( const double maxVelocity,
+Tank::Tank( const Tank::ETankType eType,
+            const double maxVelocity,
             const glm::vec2& position,
             const glm::vec2& size,
             const float layer)
                                      : IGameObject(IGameObject::EObjectType::Tank, position, size, 0.0f, layer),
                                       m_eOrientation(EOrientation::Top),
                                       m_pCurrentBullet(std::make_shared<Bullet>(0.1, m_position + m_size / 4.0f, m_size / 2.0f, m_size, m_layer)),
-                                      m_pSprite_top(ResourceManager::getSprite("tankSprite_top")),
-                                      m_pSprite_bottom(ResourceManager::getSprite("tankSprite_bottom")),
-                                      m_pSprite_left(ResourceManager::getSprite("tankSprite_left")),
-                                      m_pSprite_right(ResourceManager::getSprite("tankSprite_right")),
+                                      m_pSprite_top(ResourceManager::getSprite(getTankSpriteFromType(eType) + "_top")),
+                                      m_pSprite_bottom(ResourceManager::getSprite(getTankSpriteFromType(eType) + "_bottom")),
+                                      m_pSprite_left(ResourceManager::getSprite(getTankSpriteFromType(eType) + "_left")),
+                                      m_pSprite_right(ResourceManager::getSprite(getTankSpriteFromType(eType) + "_right")),
                                       m_pSprite_respawn(ResourceManager::getSprite("respawn")),
                                       m_spriteAnimator_respawn(m_pSprite_respawn),
                                       m_pSprite_shield(ResourceManager::getSprite("shield")),
@@ -165,4 +166,9 @@ void Tank::fire()
     {
         m_pCurrentBullet -> fire(m_position + m_size / 4.0f + m_size * m_direction / 4.0f, m_direction);
     };
+};
+
+const std::string& Tank::getTankSpriteFromType(const ETankType eType)
+{
+    return TankTypeToSpriteString[static_cast<size_t>(eType)];
 };
