@@ -316,8 +316,12 @@ CMakeFiles/BattleCity.dir/src/Game/Game.cpp.obj: \
  C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/uniform_int_dist.h \
  N:/CPP_prj/SimpleCoding/BattleCity/src/Renderer/SpriteAnimator.h \
  N:/CPP_prj/SimpleCoding/BattleCity/src/System/Timer.h \
+ N:/CPP_prj/SimpleCoding/BattleCity/src/Game/AIComponent.h \
  N:\CPP_prj\SimpleCoding\BattleCity\src\Game\GameObjects/Bullet.h \
  N:\CPP_prj\SimpleCoding\BattleCity\src\Game\GameStates/Level.h \
+ C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/set \
+ C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_set.h \
+ C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_multiset.h \
  N:\CPP_prj\SimpleCoding\BattleCity\src\Game\GameStates/IGameState.h \
  N:\CPP_prj\SimpleCoding\BattleCity\src\Game\GameStates/StartScreen.h \
  N:/CPP_prj/SimpleCoding/BattleCity/src/Renderer/Renderer.h \

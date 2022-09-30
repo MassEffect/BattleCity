@@ -4,6 +4,7 @@
 #include "IGameObject.h"
 #include "../../Renderer/SpriteAnimator.h"
 #include "../../System/Timer.h"
+#include "../AIComponent.h"
 
 namespace RenderEngine
 {
@@ -11,6 +12,7 @@ namespace RenderEngine
 };
 
 class Bullet;
+class AIComponent;
 
 class Tank : public IGameObject
 {
@@ -79,6 +81,9 @@ public:
     };
 
     Tank(const Tank::ETankType eType,
+         const bool bHasAI,
+         const bool bShieldOnSpawn,
+         const EOrientation eOrientation,
          const double maxVelocity,
          const glm::vec2& position,
          const glm::vec2& size,
@@ -116,6 +121,8 @@ private:
     double m_maxVelocity;
     bool m_isSpawning;
     bool m_hasShield;
+    bool m_bShieldOnSpawn;
 
     static const std::string& getTankSpriteFromType(const ETankType eType);
+    std::unique_ptr<AIComponent> m_pAIComponent;
 };

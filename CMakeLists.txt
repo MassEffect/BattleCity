@@ -64,6 +64,9 @@ add_executable(${PROJECT_NAME}
 				
 				src/Physics/PhysicsEngine.h
 				src/Physics/PhysicsEngine.cpp
+				
+				src/Game/AIComponent.h
+				src/Game/AIComponent.cpp
   				)
 
 target_compile_features(${PROJECT_NAME} PUBLIC cxx_std_17)

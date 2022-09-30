@@ -187,6 +187,7 @@ CMakeFiles/BattleCity.dir/src/Game/GameObjects/Tank.cpp.obj: \
  N:/CPP_prj/SimpleCoding/BattleCity/src/Renderer/VertexArray.h \
  N:/CPP_prj/SimpleCoding/BattleCity/src/Renderer/VertexBufferLayout.h \
  N:/CPP_prj/SimpleCoding/BattleCity/src/System/Timer.h \
+ N:/CPP_prj/SimpleCoding/BattleCity/src/Game/AIComponent.h \
  N:/CPP_prj/SimpleCoding/BattleCity/src/Resources/ResourceManager.h \
  C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/map \
  C:/PROGRA~1/CODEBL~1/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_tree.h \

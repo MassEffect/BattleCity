@@ -458,6 +458,21 @@ CMakeFiles/BattleCity.dir/src/Physics/PhysicsEngine.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/BattleCity.dir/src/Physics/PhysicsEngine.cpp.s"
 	C:\PROGRA~1\CODEBL~1\MinGW\bin\C__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S N:\CPP_prj\SimpleCoding\BattleCity\src\Physics\PhysicsEngine.cpp -o CMakeFiles\BattleCity.dir\src\Physics\PhysicsEngine.cpp.s
 
+CMakeFiles/BattleCity.dir/src/Game/AIComponent.cpp.obj: CMakeFiles/BattleCity.dir/flags.make
+CMakeFiles/BattleCity.dir/src/Game/AIComponent.cpp.obj: CMakeFiles/BattleCity.dir/includes_CXX.rsp
+CMakeFiles/BattleCity.dir/src/Game/AIComponent.cpp.obj: src/Game/AIComponent.cpp
+CMakeFiles/BattleCity.dir/src/Game/AIComponent.cpp.obj: CMakeFiles/BattleCity.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=N:\CPP_prj\SimpleCoding\BattleCity\CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object CMakeFiles/BattleCity.dir/src/Game/AIComponent.cpp.obj"
+	C:\PROGRA~1\CODEBL~1\MinGW\bin\C__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/BattleCity.dir/src/Game/AIComponent.cpp.obj -MF CMakeFiles\BattleCity.dir\src\Game\AIComponent.cpp.obj.d -o CMakeFiles\BattleCity.dir\src\Game\AIComponent.cpp.obj -c N:\CPP_prj\SimpleCoding\BattleCity\src\Game\AIComponent.cpp
+
+CMakeFiles/BattleCity.dir/src/Game/AIComponent.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/BattleCity.dir/src/Game/AIComponent.cpp.i"
+	C:\PROGRA~1\CODEBL~1\MinGW\bin\C__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E N:\CPP_prj\SimpleCoding\BattleCity\src\Game\AIComponent.cpp > CMakeFiles\BattleCity.dir\src\Game\AIComponent.cpp.i
+
+CMakeFiles/BattleCity.dir/src/Game/AIComponent.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/BattleCity.dir/src/Game/AIComponent.cpp.s"
+	C:\PROGRA~1\CODEBL~1\MinGW\bin\C__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S N:\CPP_prj\SimpleCoding\BattleCity\src\Game\AIComponent.cpp -o CMakeFiles\BattleCity.dir\src\Game\AIComponent.cpp.s
+
 # Object files for target BattleCity
 BattleCity_OBJECTS = \
 "CMakeFiles/BattleCity.dir/src/main.cpp.obj" \
@@ -485,7 +500,8 @@ BattleCity_OBJECTS = \
 "CMakeFiles/BattleCity.dir/src/Game/GameObjects/Water.cpp.obj" \
 "CMakeFiles/BattleCity.dir/src/Game/GameObjects/Eagle.cpp.obj" \
 "CMakeFiles/BattleCity.dir/src/System/Timer.cpp.obj" \
-"CMakeFiles/BattleCity.dir/src/Physics/PhysicsEngine.cpp.obj"
+"CMakeFiles/BattleCity.dir/src/Physics/PhysicsEngine.cpp.obj" \
+"CMakeFiles/BattleCity.dir/src/Game/AIComponent.cpp.obj"
 
 # External object files for target BattleCity
 BattleCity_EXTERNAL_OBJECTS =
@@ -516,13 +532,14 @@ bin/BattleCity.exe: CMakeFiles/BattleCity.dir/src/Game/GameObjects/Water.cpp.obj
 bin/BattleCity.exe: CMakeFiles/BattleCity.dir/src/Game/GameObjects/Eagle.cpp.obj
 bin/BattleCity.exe: CMakeFiles/BattleCity.dir/src/System/Timer.cpp.obj
 bin/BattleCity.exe: CMakeFiles/BattleCity.dir/src/Physics/PhysicsEngine.cpp.obj
+bin/BattleCity.exe: CMakeFiles/BattleCity.dir/src/Game/AIComponent.cpp.obj
 bin/BattleCity.exe: CMakeFiles/BattleCity.dir/build.make
 bin/BattleCity.exe: external/glfw/src/libglfw3.a
 bin/BattleCity.exe: external/glad/libglad.a
 bin/BattleCity.exe: CMakeFiles/BattleCity.dir/linklibs.rsp
 bin/BattleCity.exe: CMakeFiles/BattleCity.dir/objects1.rsp
 bin/BattleCity.exe: CMakeFiles/BattleCity.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=N:\CPP_prj\SimpleCoding\BattleCity\CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Linking CXX executable bin\BattleCity.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=N:\CPP_prj\SimpleCoding\BattleCity\CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Linking CXX executable bin\BattleCity.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\BattleCity.dir\link.txt --verbose=$(VERBOSE)
 	"C:\Program Files\CMake\bin\cmake.exe" -E copy_directory N:/CPP_prj/SimpleCoding/BattleCity/res N:/CPP_prj/SimpleCoding/BattleCity/bin/res
 

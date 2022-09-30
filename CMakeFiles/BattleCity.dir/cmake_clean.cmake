@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/BattleCity.dir/src/Game/AIComponent.cpp.obj"
+  "CMakeFiles/BattleCity.dir/src/Game/AIComponent.cpp.obj.d"
   "CMakeFiles/BattleCity.dir/src/Game/Game.cpp.obj"
   "CMakeFiles/BattleCity.dir/src/Game/Game.cpp.obj.d"
   "CMakeFiles/BattleCity.dir/src/Game/GameObjects/BetonWall.cpp.obj"

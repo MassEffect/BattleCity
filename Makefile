@@ -167,6 +167,30 @@ glad/fast:
 	$(MAKE) $(MAKESILENT) -f external\glad\CMakeFiles\glad.dir\build.make external/glad/CMakeFiles/glad.dir/build
 .PHONY : glad/fast
 
+src/Game/AIComponent.obj: src/Game/AIComponent.cpp.obj
+.PHONY : src/Game/AIComponent.obj
+
+# target to build an object file
+src/Game/AIComponent.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BattleCity.dir\build.make CMakeFiles/BattleCity.dir/src/Game/AIComponent.cpp.obj
+.PHONY : src/Game/AIComponent.cpp.obj
+
+src/Game/AIComponent.i: src/Game/AIComponent.cpp.i
+.PHONY : src/Game/AIComponent.i
+
+# target to preprocess a source file
+src/Game/AIComponent.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BattleCity.dir\build.make CMakeFiles/BattleCity.dir/src/Game/AIComponent.cpp.i
+.PHONY : src/Game/AIComponent.cpp.i
+
+src/Game/AIComponent.s: src/Game/AIComponent.cpp.s
+.PHONY : src/Game/AIComponent.s
+
+# target to generate assembly for a file
+src/Game/AIComponent.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BattleCity.dir\build.make CMakeFiles/BattleCity.dir/src/Game/AIComponent.cpp.s
+.PHONY : src/Game/AIComponent.cpp.s
+
 src/Game/Game.obj: src/Game/Game.cpp.obj
 .PHONY : src/Game/Game.obj
 
@@ -803,6 +827,9 @@ help:
 	@echo ... BattleCity
 	@echo ... glad
 	@echo ... glfw
+	@echo ... src/Game/AIComponent.obj
+	@echo ... src/Game/AIComponent.i
+	@echo ... src/Game/AIComponent.s
 	@echo ... src/Game/Game.obj
 	@echo ... src/Game/Game.i
 	@echo ... src/Game/Game.s

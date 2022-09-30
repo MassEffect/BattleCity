@@ -322,6 +322,12 @@
 		<Unit filename="N:/CPP_prj/SimpleCoding/BattleCity/external/glfw/src/window.c">
 			<Option target="glfw"/>
 		</Unit>
+		<Unit filename="N:/CPP_prj/SimpleCoding/BattleCity/src/Game/AIComponent.cpp">
+			<Option target="BattleCity"/>
+		</Unit>
+		<Unit filename="N:/CPP_prj/SimpleCoding/BattleCity/src/Game/AIComponent.h">
+			<Option target="BattleCity"/>
+		</Unit>
 		<Unit filename="N:/CPP_prj/SimpleCoding/BattleCity/src/Game/Game.cpp">
 			<Option target="BattleCity"/>
 		</Unit>

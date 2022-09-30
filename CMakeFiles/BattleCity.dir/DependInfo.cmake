@@ -8,6 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "N:/CPP_prj/SimpleCoding/BattleCity/src/Game/AIComponent.cpp" "CMakeFiles/BattleCity.dir/src/Game/AIComponent.cpp.obj" "gcc" "CMakeFiles/BattleCity.dir/src/Game/AIComponent.cpp.obj.d"
   "N:/CPP_prj/SimpleCoding/BattleCity/src/Game/Game.cpp" "CMakeFiles/BattleCity.dir/src/Game/Game.cpp.obj" "gcc" "CMakeFiles/BattleCity.dir/src/Game/Game.cpp.obj.d"
   "N:/CPP_prj/SimpleCoding/BattleCity/src/Game/GameObjects/BetonWall.cpp" "CMakeFiles/BattleCity.dir/src/Game/GameObjects/BetonWall.cpp.obj" "gcc" "CMakeFiles/BattleCity.dir/src/Game/GameObjects/BetonWall.cpp.obj.d"
   "N:/CPP_prj/SimpleCoding/BattleCity/src/Game/GameObjects/Border.cpp" "CMakeFiles/BattleCity.dir/src/Game/GameObjects/Border.cpp.obj" "gcc" "CMakeFiles/BattleCity.dir/src/Game/GameObjects/Border.cpp.obj.d"
